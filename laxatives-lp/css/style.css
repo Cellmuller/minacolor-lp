@@ -1,0 +1,1356 @@
+.lp-laxatives{
+    color: #333;
+    line-height: 2.2;
+    letter-spacing: 1px;
+    font-family:'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;       
+}
+
+/* display none------------------------- */
+
+.lp-laxatives-responsive-pc{
+    display: block;
+}
+
+.lp-laxatives-responsive-sp{
+    display: none;
+}
+
+@media (max-width: 768px){
+
+    .lp-laxatives-responsive-pc{
+        display: none;
+    }
+
+    .lp-laxatives-responsive-sp{
+        display: block;
+    }
+
+}
+
+/* header------------------------- */
+
+.lp-laxatives-header{
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.lp-laxatives-header img{
+    width: 240px;
+}
+
+/* fv----------------------------- */
+
+
+.lp-laxatives-fv{
+    background-size: cover;
+    position: relative;
+}
+
+.lp-laxatives-fv .lp-laxatives-pkg {
+    position: absolute;
+    left: 4%;
+    top: 8%;
+    max-width: 35%;
+    width: 100%;
+}
+
+.lp-laxatives-fv .lp-laxatives-text {
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    max-width: 530px;
+    text-align: center;
+    width: 50vw;
+}
+
+@media (max-width: 1000px){
+    .lp-laxatives-fv .lp-laxatives-text {
+        right: 2%;
+        top: 5%;
+        max-width: 480px;
+    }
+}
+
+.lp-laxatives-fv .lp-laxatives-text p{
+    background-color: #fc546b;
+    font-size: min(2.2vmax, 22px);
+    color: #fff;
+    padding: 2% 3%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.lp-laxatives-fv .lp-laxatives-triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-top: 20px solid #fc546b;
+    border-bottom: 0;
+    margin: auto;
+}
+
+
+.lp-laxatives-fv .lp-laxatives-text h1{
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+    font-size: min(10vmax, 52px);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 0px 0px #fff, -1px 0px 0px #fff, 0px 1px 0px #fff, 0px -1px 0px #fff;
+    color: #fc546b;
+}
+
+@media (max-width: 1100px){
+    .lp-laxatives-fv .lp-laxatives-text h1{
+        font-size: min(8vmax, 46px);
+    }
+}
+
+@media (max-width: 900px){
+    .lp-laxatives-fv .lp-laxatives-text h1{
+        font-size: min(7vmax, 40px);
+    }
+}
+
+.lp-laxatives-fv-point{
+    margin-top: 10px;
+}
+
+.lp-laxatives-fv-btn{
+    margin-top: 20px;
+}
+
+
+/* point-------------------------------- */
+
+.lp-laxatives-trouble{
+    background: url(../img/trouble-pink-bg.png);
+    background-size: cover;
+    padding: 10% 3% 3% 3%;
+    margin-top: -5%;
+}
+
+
+.lp-laxatives-trouble-box{
+    background: url(../img/trouble-pc-bg.png);
+    background-size: cover;
+    padding: 3vw;
+}
+
+.lp-laxatives-trouble-box h2{
+    font-size: min(3vmax, 30px);
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+}
+
+.lp-laxatives-trouble-box h2 span{
+    font-size: min(4.4vmax, 44px);
+}
+
+.lp-laxatives-trouble-item-01,
+.lp-laxatives-trouble-item-02,
+.lp-laxatives-trouble-item-03,
+.lp-laxatives-trouble-item-04{
+    display: flex;
+    background-color: rgb(0,0,0,0.6);
+    color: #fff;
+    padding: 1vw;
+    width: 58%;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.lp-laxatives-trouble-item-01 img,
+.lp-laxatives-trouble-item-02 img,
+.lp-laxatives-trouble-item-03 img,
+.lp-laxatives-trouble-item-04 img{
+    width: 100%;
+    max-width: 35px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.lp-laxatives-trouble-item-01 p,
+.lp-laxatives-trouble-item-02 p,
+.lp-laxatives-trouble-item-03 p,
+.lp-laxatives-trouble-item-04 p{
+    font-size: min(2.6vmax, 18px);
+    font-weight: bold;
+}
+
+.lp-laxatives-trouble-item-01 p span,
+.lp-laxatives-trouble-item-02 p span,
+.lp-laxatives-trouble-item-03 p span,
+.lp-laxatives-trouble-item-04 p span{
+    color: #fefc00;
+}
+
+/* resolution--------------------------------------- */
+
+
+.lp-laxatives-resolution img{
+    width: 100%;
+    height: 100%;
+}
+
+/* offer------------------------------------------ */
+
+
+.lp-laxatives-offer{
+    background: url(../img/offer-bg.png);
+    background-size: cover;
+    padding: 3vw;
+}
+
+.lp-laxatives-offer h2{
+    background-color: #fe86b6;
+    color: #fff;
+    padding: 3%;
+    margin: auto;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: min(4vmax, 40px);
+    font-weight: bold;
+}
+
+.lp-laxatives-offer-box{
+    background-color: #fff;
+    border-radius: 0;
+    padding: 5%;
+}
+
+.lp-laxatives-offer-inner-text-point p{
+    border: 2px solid #ff5f22;
+    color: #ff5f22;
+    padding: 2%;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: min(3vmax, 20px);
+    margin-top: 10px;
+    line-height: 1;
+}
+
+.lp-laxatives-offer-cta{
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.lp-laxatives-offer a{
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+}
+
+.lp-laxatives-offer a img {
+    display: block;
+    height: auto;
+    border: none;
+    margin: auto;
+    width: 90%;
+}
+
+.lp-laxatives-offer a:hover img {
+    opacity: 0.8;
+}
+
+.lp-laxatives-offer-benefits h3{
+    background-color: #fe86b6;
+    text-align: center;
+    color: #fff;
+    padding: 2% 0;
+    font-weight: bold;
+    font-size: min(2vmax, 20px);
+    line-height: 1.8;
+}
+
+.lp-laxatives-offer-benefits h3 span{
+    font-size: min(3vmax, 30px);
+}
+
+.lp-laxatives-offer-benefits-box{
+    background-color: #fff8da;
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
+}
+
+.lp-laxatives-offer-benefits-item{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+}
+
+.lp-laxatives-offer-benefits-no{
+    background-color: #fd5151;
+    color: #fff;
+    font-size: min(2.4vmax, 24px);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 30px;
+    padding: 5% 3%;
+    line-height: 1;
+}
+
+.lp-laxatives-offer-benefits-text{
+    font-size: min(6vmax, 14px);
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lp-laxatives-offer-benefits-main-text{
+    font-size: min(3.2vmax, 30px);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    color: #fd5151;
+    line-height: 1.2;
+}
+
+.lp-laxatives-offer-benefits-free{
+    display: block;
+    background-color: yellow;
+    color: #fd5151;
+    padding: 2%;
+    font-size: min(1.6vmax, 16px);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.lp-laxatives-offer-graph{
+    padding: 3%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.lp-laxatives-offer-graph h3{
+    font-size: min(3vmax, 30px);
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+}
+
+.lp-laxatives-offer-graph h3 span{
+    font-size: min(8vmax, 80px);
+    font-weight: bold;
+}
+
+
+.lp-laxatives-offer-graph img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.lp-laxatives-offer-graph p{
+    background-color: #d52161;
+    color: #fff;
+    font-size: min(4vmax, 40px);
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
+
+.lp-laxatives-offer-second .lp-laxatives-offer-cta {
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    padding: 3vw;
+    border-radius: 0;
+}
+
+/* about------------------------------------------- */
+
+.lp-laxatives-about{
+    background-color: #fff9d7;
+}
+
+
+.lp-laxatives-about-title{
+    position: relative;
+}
+
+.lp-laxatives-about-title-inner h2{
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    font-size: min(6vmax, 60px);
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+    line-height: 1.2;
+}
+
+.lp-laxatives-about-title-inner h2 span{
+    font-size: min(4vmax, 40px);
+}
+
+.lp-laxatives-about-title{
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+
+.lp-laxatives-about-explanation{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 3vw;
+    padding: 5.5vw 5vw;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.lp-laxatives-about-explanation h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: min(4.2vmax, 42px);
+}
+
+.lp-laxatives-about-explanation h3 span{
+    color: #fc546b;
+}
+
+.lp-laxatives-about-explanation p{
+    font-size: min(2.4vmax, 24px);
+    line-height: 2.3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lp-laxatives-about-explanation p span{
+    color: #fc546b;
+    font-weight: bold;
+}
+
+.lp-laxatives-about-explanation img{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.lp-laxatives-about-conclusion-end p{
+    text-align: center;
+    font-size: min(4vmax, 40px);
+    line-height: 1.5;
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+}
+
+.lp-laxatives-about-conclusion-end p span{
+    font-size: min(8vmax, 80px);
+    color: #fc546b;
+}
+
+.lp-laxatives-about-conclusion{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.lp-laxatives-about-conclusion h2{
+    font-size: min(4vmax, 40px);
+    text-align: center;
+}
+
+/* efficac----------------------------------------- */
+
+.lp-laxatives-efficacy{
+    background-image: url(../img/efficacy-bg.png);
+    background-size: cover;
+    padding: 3vw;
+    background-position: top;
+}
+
+.lp-laxatives-efficacy-inner{
+    margin-top: 25%;
+}
+
+.lp-laxatives-efficacy-inner-title{
+    text-align: center;
+}
+
+.lp-laxatives-efficacy-inner-title h2{
+    background: #ff5b96;
+    font-size: min(3.8vmax, 44px);
+    width: 100%;
+    color: #ffffff;
+    margin: auto;
+    padding: 1%;
+    font-weight: bold;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.lp-laxatives-efficacy-inner-text-1{
+    text-align: center;
+    margin: 20px;
+    color: #ff5b96;
+    font-size: min(6vmax, 70px);
+    text-shadow: 2px 3px 3px rgb(255 255 255 / 100%);
+}
+
+/* method----------------------------------------- */
+
+
+.lp-laxatives-method{
+    background-color: #fff3f7;
+    padding: 3%;
+}
+
+.lp-laxatives-method h2 {
+    text-align: center;
+}
+
+.lp-laxatives-method h2 img {
+    text-align: center;
+    width: 80%;
+    margin: 4% 0 4% 0;
+}
+
+.lp-laxatives-method-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+.lp-laxatives-method-item img{
+    width: 33%;
+    padding: 10px;
+}
+
+.lp-laxatives-method-text-1{
+    text-align: center;
+    font-weight: bold;
+    font-size: min(6vmax, 60px);
+    margin-bottom: 20px;
+}
+
+.lp-laxatives-method-text-2{
+    font-size: min(2vmax, 16px);
+    text-align: right;
+}
+
+
+
+/* line--------------------------------------- */
+
+.lp-laxatives-line{
+    width: 100%;
+    background-image: url(../img/line-bg.png);
+    position: relative;
+    padding: 8% 3vw 3vw 3vw;
+}
+.lp-laxatives-line h2{
+    display: block;
+    text-align: center;
+    background: linear-gradient(to bottom, #16be58, #26ab5b);
+    border-radius: 5px;
+    padding: 2%;
+    color: #fff;
+    font-size: min(3vmax, 30px);
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    line-height: 1.8;
+    box-shadow: 0px 6px 2px #c2e0d6;
+}
+
+.lp-laxatives-line-box{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 12% 3vw 3vw 3vw;
+}
+.lp-laxatives-line-text{
+    text-align: center;
+}
+.lp-laxatives-line-title{
+    font-size: min(3vmax, 30px);
+    font-family: var(--font-gothic);
+    line-height: 1.2;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.lp-laxatives-line-title span{
+    font-size: min(6vmax, 60px);
+}
+.lp-laxatives-line-explanatory{
+    text-align: center;
+    font-size: min(2.4vmax, 24px);
+}
+.lp-laxatives-line-explanatory span{
+    color: #e23636;
+    font-size: min(2.4vmax,24px);
+}
+
+.lp-laxatives-line-cta{
+    text-align: center;
+    margin-top: 5%;
+}
+.lp-laxatives-line_cta img{
+    width: 80%;
+}
+
+/* faq-------------------------------------- */
+
+.lp-laxatives-faq{
+    padding: 3vw;
+}
+
+.lp-laxatives-faq h2{
+    font-size: min(4vmax, 40px);
+    text-align: center;
+}
+
+.lp-laxatives-faq-item {
+    max-width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #d6dde3;
+}
+
+.lp-laxatives-faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em 1em 3em;
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 2% 0 2% 10%;
+    font-size: min(2.6vmax, 26px);
+}
+
+.lp-laxatives-faq-item summary::before,
+.lp-laxatives-faq-item p::before {
+    position: absolute;
+    left: 2%;
+    font-weight: 600;
+    font-size: min(4.8vmax, 48px);
+}
+
+.lp-laxatives-faq-item summary::before {
+    color: #75bbff;
+    content: "Q";
+}
+
+.lp-laxatives-faq-item summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    border-bottom: 3px solid #333333b3;
+    border-right: 3px solid #333333b3;
+    content: '';
+    transition: transform .5s;
+}
+
+.lp-laxatives-faq-item[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.lp-laxatives-faq-item p {
+    position: relative;
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: 2% 0 5% 10%;
+    color: #333;
+    transition: transform .5s, opacity .5s;
+}
+
+.lp-laxatives-faq-item[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+.lp-laxatives-faq-item p::before {
+    color: #ff8d8d;
+    line-height: 1.2;
+    content: "A";
+}
+
+
+@media screen and (max-width: 768px){
+
+    /* header------------------------- */
+
+    .lp-laxatives-header{
+        background-color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .lp-laxatives-header img{
+        width: 200px;
+    }
+
+    /* fv----------------------------- */
+
+
+    .lp-laxatives-fv{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        padding-top:9%;
+    }
+
+    .lp-laxatives-fv .lp-laxatives-pkg {
+        top: 29%;
+        left: 22%;
+        transform: translateX(-50%);
+        max-width: 35%;
+    }
+
+    .lp-laxatives-fv .lp-laxatives-text {
+        position: initial;
+        right: 0;
+        top: 0;
+        max-width: 100vh;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lp-laxatives-fv .lp-laxatives-text p{
+        background-color: #fc546b;
+        font-size: min(4.2vmin, 22px);
+        color: #fff;
+        padding: 2% 3%;
+        text-align: center;
+        font-weight: bold;
+        border-radius: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    .lp-laxatives-fv .lp-laxatives-triangle {
+        position: absolute;
+        top: 6.5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .lp-laxatives-fv .lp-laxatives-text h1{
+        font-size: min(9vmin, 60px);
+        font-weight: bold;
+        position: absolute;
+        top: 12%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .lp-laxatives-fv-point{
+        width: 100%;
+        position: absolute;
+        transform: translateX(-50%);
+        padding: 10px;
+        bottom: 16%;
+    }
+
+    .lp-laxatives-fv-btn{
+        position: absolute;
+        bottom:0%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    /* point-------------------------------- */
+
+    .lp-laxatives-trouble{
+        background: url(../img/trouble-pink-bg.png);
+        background-size: cover;
+        padding: 16% 3% 3% 3%;
+        margin-top: -6%;
+    }
+
+
+    .lp-laxatives-trouble-box{
+        background: url(../img/trouble-sp-bg.png);
+        padding-top: 160%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: #fcfbfc;
+        position: relative;
+        background-size: contain;
+    }
+
+    .lp-laxatives-trouble-box h2{
+        position: absolute;
+        width: 90%;
+        top: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        margin-top: 20px;
+        font-size: min(4vmin, 30px);
+    }
+
+    .lp-laxatives-trouble-box h2 span{
+        font-size: min(6.4vmin, 44px);
+    }
+
+    .lp-laxatives-trouble-item-box{
+        position: absolute;
+        width: 90%;
+        box-sizing: border-box;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .lp-laxatives-trouble-item-01,
+    .lp-laxatives-trouble-item-02,
+    .lp-laxatives-trouble-item-03,
+    .lp-laxatives-trouble-item-04{
+        display: flex;
+        background-color: rgb(0,0,0,0.6);
+        color: #fff;
+        padding: 2vw;
+        width: 100%;
+        margin-bottom: 20px;
+        align-items: center;
+        border-radius: 0px;
+    }
+
+    .lp-laxatives-trouble-item-01 img,
+    .lp-laxatives-trouble-item-02 img,
+    .lp-laxatives-trouble-item-03 img,
+    .lp-laxatives-trouble-item-04 img{
+        width: 100%;
+        max-width: 35px;
+        height: 100%;
+        margin-right: 10px;
+    }
+
+    .lp-laxatives-trouble-item-01 p,
+    .lp-laxatives-trouble-item-02 p,
+    .lp-laxatives-trouble-item-03 p,
+    .lp-laxatives-trouble-item-04 p{
+        font-size: min(3.5vmin, 20px);
+        font-weight: bold;
+    }
+
+    .lp-laxatives-trouble-item-01 p span,
+    .lp-laxatives-trouble-item-02 p span,
+    .lp-laxatives-trouble-item-03 p span,
+    .lp-laxatives-trouble-item-04 p span{
+        color: #fefc00;
+    }
+
+    /* offer------------------------------------------ */
+
+
+    .lp-laxatives-offer{
+        background: url(../img/offer-bg.png);
+        background-size: cover;
+        padding: 3vw;
+    }
+
+    .lp-laxatives-offer-box {
+        border-radius: 0;
+        position: relative;
+    }
+
+    .lp-laxatives-offer h2{
+        font-size: min(4vmin, 40px);
+    }
+
+    .lp-laxatives-offer-inner{
+        display: flex;
+        padding: 15vw 3vw 3vw 3vw;
+        border-radius: 0;
+    }
+
+    .lp-laxatives-offer-inner-box{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        display: block;
+    }
+
+    .lp-laxatives-offer-inner img{
+        width: 30%;
+        height: 100%;
+    }
+
+    .lp-laxatives-offer-inner-text{
+        padding: 2%;
+        width: 70%;
+    }
+
+    .lp-laxatives-offer-inner-text img{
+        width: 100%;
+        height: auto;
+    }
+
+    .lp-laxatives-offer-inner-text h3{
+        font-weight: bold;
+        font-size: min(5vmin,34px);
+        margin-bottom: 10px;
+        position: absolute;
+        top: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    .lp-laxatives-offer-inner-text-point p{
+        font-size: min(4vmin, 20px);
+        padding: 4%;
+    }
+
+    .lp-laxatives-offer-inner-text-point span{
+        display: block;
+        text-align: right;
+    }
+
+    .lp-laxatives-offer-cta{
+        margin: auto;
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 0 3vw;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .lp-laxatives-offer-second .lp-laxatives-offer-cta {
+        margin: auto;
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 3vw;
+        border-radius: 0;
+    }
+
+    .lp-laxatives-offer a{
+        display: inline-block;
+        text-decoration: none;
+        border: none;
+        background: none;
+        outline: none;
+        text-align: center;
+    }
+
+    .lp-laxatives-offer a img {
+        display: block;
+        height: auto;
+        border: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    .lp-laxatives-offer a:hover img {
+        opacity: 0.8;
+    }
+
+    .lp-laxatives-offer-benefits h3{
+        background-color: #a45712;
+        text-align: center;
+        color: #fff;
+        padding: 2% 0;
+        font-weight: bold;
+        font-size: min(4vmin, 20px);
+        line-height: 1.8;
+    }
+
+    .lp-laxatives-offer-benefits h3 span{
+        font-size: min(6vmin, 30px);
+    }
+
+    .lp-laxatives-offer-benefits-box{
+        background-color: #fff8da;
+        display: block;
+        padding: 3%;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+
+    .lp-laxatives-offer-benefits-item{
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 6%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3vw;
+    }
+
+    .lp-laxatives-offer-benefits-no{
+        background-color: #fd5151;
+        color: #fff;
+        font-size: min(5.4vmin, 24px);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        border-radius: 30px;
+        padding: 3%;
+        line-height: 1;
+    }
+
+    .lp-laxatives-offer-benefits-text{
+        font-size: min(7.05vmin, 18px);
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .lp-laxatives-offer-benefits-main-text{
+        font-size: min(8vmin, 50px);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        color: #fd5151;
+        line-height: 1.2;
+    }
+
+    .lp-laxatives-offer-benefits-free{
+        display: block;
+        background-color: yellow;
+        color: #fd5151;
+        padding: 2%;
+        font-size: min(5.6vmin, 22px);
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+
+    .lp-laxatives-offer-graph{
+        padding: 3%;
+        text-align: center;
+    }
+
+    .lp-laxatives-offer-graph h3{
+        font-size: min(5vmin, 30px);
+        font-weight: bold;
+        margin-bottom: 40px;
+        line-height: 1.5;
+        font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+    }
+
+    .lp-laxatives-offer-graph h3 span{
+        font-size: min(8vmin, 50px);
+        font-weight: bold;
+    }
+
+
+    .lp-laxatives-offer-graph img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .lp-laxatives-offer-graph p{
+        background-color: #d52161;
+        color: #fff;
+        font-size: min(4vmin, 40px);
+        font-weight: bold;
+        text-align: center;
+        padding: 2%;
+    }
+
+    .lp-laxatives-offer-inner-text-box{
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    /* about------------------------------------------- */
+
+    .lp-laxatives-about{
+        background-color: #fff9d7;
+    }
+
+
+    .lp-laxatives-about-title{
+        position: relative;
+    }
+
+    .lp-laxatives-about-title-inner h2{
+        top: 3%;
+        font-size: min(7vmin, 60px);
+    }
+
+    .lp-laxatives-about-title-inner h2 span{
+        font-size: min(5vmin, 40px);
+    }
+
+    .lp-laxatives-about-title{
+        color: #fff;
+        margin: auto;
+        text-align: center;
+    }
+
+    .lp-laxatives-about-explanation{
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 3vw;
+        padding: 5.5vw 5vw;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    .lp-laxatives-about-explanation h3{
+        text-align: center;
+        font-weight: bold;
+        font-size: min(4.5vmin, 42px);
+        padding: 14px 0;
+    }
+
+    .lp-laxatives-about-explanation h3 span{
+        color: #fc546b;
+    }
+
+    .lp-laxatives-about-explanation p{
+        font-size: min(3.4vmin, 24px);
+        line-height: 2;
+        margin-bottom: 20px;
+        letter-spacing: 0.6px;
+    }
+
+    .lp-laxatives-about-explanation p span{
+        color: #fc546b;
+        font-weight: bold;
+    }
+
+    .lp-laxatives-about-conclusion-end p{
+        text-align: center;
+        font-size: min(7vmin, 40px);
+        line-height: 1.5;
+        font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+        padding-top: 5%;
+    }
+
+    .lp-laxatives-about-conclusion-end p span{
+        font-size: min(8vmin, 80px);
+        color: #fc546b;
+    }
+
+    .lp-laxatives-about-conclusion{
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .lp-laxatives-about-conclusion h2{
+        font-size: min(4vmin, 40px);
+        text-align: center;
+    }
+
+    /* efficac----------------------------------------- */
+
+    .lp-laxatives-efficacy{
+        background-image: url(../img/efficacy-bg.png);
+        background-size: cover;
+        padding: 3vw;
+        background-position: center;
+    }
+
+    .lp-laxatives-efficacy-inner-title h2 {
+        font-size: min(4vmax, 44px);
+        line-height: 1.5;
+        padding: 2% 0;
+    }
+    
+    /* method----------------------------------------- */
+
+    .lp-laxatives-method h2 img {
+        width: 100%;
+        margin: 10% 0 4% 0;
+    }
+    .lp-laxatives-method-item img {
+        width: 50%;
+        padding: 4px;
+    }
+    .lp-laxatives-method-text-1 {
+        font-size: min(7.3vmin, 45px);
+        margin-bottom: 4px;
+    }
+
+    .lp-laxatives-method-text-2 {
+        font-size: min(2vmax, 10px);
+        text-align: center;
+    }
+
+
+    /* line--------------------------------------- */
+
+    .lp-laxatives-line{
+        width: 100%;
+        background-image: url(../img/line-bg.png);
+        position: relative;
+        padding: 10vw 3vw 3vw 3vw;
+    }
+    .lp-laxatives-line h2{
+        display: block;
+        text-align: center;
+        background: linear-gradient(to bottom, #16be58, #26ab5b);
+        border-radius: 5px;
+        padding: 4% 2%;
+        color: #fff;
+        font-size: min(3vmin, 30px);
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 4%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        line-height: 1.8;
+        box-shadow: 0px 6px 2px #c2e0d6;
+    }
+
+    .lp-laxatives-line-box{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 15vw 3vw 3vw 3vw;
+    }
+    .lp-laxatives-line-text{
+        text-align: center;
+    }
+    .lp-laxatives-line-title{
+        font-size: min(4vmin, 30px);
+        font-family: var(--font-gothic);
+        line-height: 1.5;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    .lp-laxatives-line-title span{
+        font-size: min(7vmin, 60px);
+    }
+    .lp-laxatives-line-explanatory{
+        text-align: center;
+        font-size: min(3.8vmin, 24px);
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+    .lp-laxatives-line-explanatory span{
+        color: #e23636;
+        font-size: min(2.4vmin,24px);
+    }
+
+    .lp-laxatives-line-cta{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .lp-laxatives-line_cta img{
+        width: 80%;
+    }
+
+    /* faq-------------------------------------- */
+
+    .lp-laxatives-faq{
+        padding: 3vw;
+    }
+
+    .lp-laxatives-faq h2{
+        font-size: min(8vmin, 40px);
+        text-align: center;
+    }
+
+    .lp-laxatives-faq-item {
+        max-width: 100%;
+        margin-bottom: 5px;
+        border-bottom: 2px solid #d6dde3;
+    }
+
+    .lp-laxatives-faq-item summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 1em 2em 1em 3em;
+        color: #333333;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 2% 0 2% 10%;
+        font-size: min(4vmin, 26px);
+    }
+
+    .lp-laxatives-faq-item summary::before,
+    .lp-laxatives-faq-item p::before {
+        position: absolute;
+        left: 2%;
+        font-weight: 600;
+        font-size: min(4.8vmin, 48px);
+    }
+
+    .lp-laxatives-faq-item summary::before {
+        color: #75bbff;
+        content: "Q";
+    }
+
+    .lp-laxatives-faq-item summary::after {
+        transform: translateY(-25%) rotate(45deg);
+        width: 7px;
+        height: 7px;
+        margin-left: 10px;
+        border-bottom: 3px solid #333333b3;
+        border-right: 3px solid #333333b3;
+        content: '';
+        transition: transform .5s;
+    }
+
+    .lp-laxatives-faq-item[open] summary::after {
+        transform: rotate(225deg);
+    }
+
+    .lp-laxatives-faq-item p {
+        position: relative;
+        transform: translateY(-10px);
+        opacity: 0;
+        margin: 0;
+        padding: 2% 0 5% 10%;
+        color: #333;
+        transition: transform .5s, opacity .5s;
+    }
+
+    .lp-laxatives-faq-item[open] p {
+        transform: none;
+        opacity: 1;
+    }
+
+    .lp-laxatives-faq-item p::before {
+        color: #ff8d8d;
+        line-height: 1.2;
+        content: "A";
+    }
+
+}
