@@ -2,7 +2,7 @@
     color: #333;
     line-height: 2.2;
     letter-spacing: 1px;
-    font-family: var(--font-gothic);
+    font-family:'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;    
 }
 
 .lp-loxoprofen-responsive-pc{
@@ -23,7 +23,6 @@
     }
 
 }
-
 
 /* header------------------------- */
 .lp-loxoprofen-header{
@@ -50,35 +49,33 @@
 .lp-loxoprofen-fv .lp-loxoprofen-pkg {
     position: absolute;
     left: 4%;
-    top: 25%;
-    max-width: 30%;
+    top: 36%;
+    max-width: 40%;
     width: 100%;
 }
 
 .lp-loxoprofen-fv .lp-loxoprofen-text {
     position: absolute;
     right: 2%;
-    top: 18%;
-    max-width: 500px;
+    top: 10%;
+    max-width: 530px;
     text-align: center;
     width: 50vw;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     .lp-loxoprofen-fv .lp-loxoprofen-text {
-        position: absolute;
         right: 2%;
-        top: 13%;
-        max-width: 400px;
-        text-align: center;
+        top: 5%;
+        max-width: 480px;
     }
 }
 
 .lp-loxoprofen-fv .lp-loxoprofen-text p{
-    background-color: #0851BC;
-    font-size: min(3vmin, 30px);
+    background-color: #0851bc;
+    font-size: min(2.2vmax, 22px);
     color: #fff;
-    padding: 1%;
+    padding: 2% 3%;
     text-align: center;
     font-weight: bold;
     border-radius: 10px;
@@ -90,131 +87,70 @@
     border-style: solid;
     border-right: 16px solid transparent;
     border-left: 16px solid transparent;
-    border-top: 20px solid #0851BC;
+    border-top: 20px solid #0851bc;
     border-bottom: 0;
     margin: auto;
 }
 
 
 .lp-loxoprofen-fv .lp-loxoprofen-text h1{
-    color: #0851BC;
-    font-family: var(--font-min);
-    font-size: min(10vmin, 70px);
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+    font-size: min(12vmax, 60px);
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
     text-shadow: 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 0px 0px #fff, -1px 0px 0px #fff, 0px 1px 0px #fff, 0px -1px 0px #fff;
+    color: #0851bc;
 }
 
 @media (max-width: 1100px){
     .lp-loxoprofen-fv .lp-loxoprofen-text h1{
-        font-size: min(8vmin, 80px);
+        font-size: min(8vmax, 46px);
     }
 }
 
 @media (max-width: 900px){
     .lp-loxoprofen-fv .lp-loxoprofen-text h1{
-        font-size: min(7vmin, 80px);
+        font-size: min(7vmax, 40px);
     }
 }
 
-.lp-loxoprofen-fv .lp-loxoprofen-text img{
-    width: 90%;
+.lp-loxoprofen-fv-point{
     margin-top: 10px;
 }
 
-.lp-loxoprofen-fv-cta{
-    position: absolute;
-    top: 65%;
-    right: 0;
+.lp-loxoprofen-fv-btn{
+    margin-top: 20px;
 }
 
-.lp-loxoprofen-fv-cta img{
-    position: absolute;
-    top: 65%;
-    right: 0;
-}
-
-
-/* point-------------------------------- */
-.lp-loxoprofen-point{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-.lp-loxoprofen-point img{
-    width: 100%;
-    padding: 2%;
-}
-.lp-loxoprofen-point-1,
-.lp-loxoprofen-point-2,
-.lp-loxoprofen-point-3{
-    position: relative;
-}
-.lp-loxoprofen-point-1 p,
-.lp-loxoprofen-point-2 p,
-.lp-loxoprofen-point-3 p{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1.2;
-    font-size: min(4.4vmin, 24px);
-    width: 100%;
-    padding-top: 5%;
-    font-family: var(--font-min);
-    text-shadow: 1px 1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff, 1px -1px 0px #fff, 1px 0px 0px #fff, -1px 0px 0px #fff, 0px 1px 0px #fff, 0px -1px 0px #fff;
-}
-.lp-loxoprofen-point-1 p,
-.lp-loxoprofen-point-2 p{
-    top: 50%;
-}
-.lp-loxoprofen-point-3 p{
-    top: 55%;
-}
-.lp-loxoprofen-point-color{
-    color: #0851BC;
-    font-size: min(3vmin, 30px);
-}
-.lp-loxoprofen-point-detail{
-    display: block;
-    margin-top: 3%;
-    font-size: min(1.5vmin, 15px);
-    line-height: 1;
-    text-shadow: none;
-}
 
 
 /* trouble------------------------------*/
 .lp-loxoprofen-trouble{
-    background: url(../img/offer-bg.png);
+    background: url(../img/trouble_bg.png);
     background-size: cover;
     padding: 8% 3% 0 3%;
     margin-top: -5%;
 }
-.lp-trouble-box{
+.lp-loxoprofen-trouble-box{
     background: url(../img/trouble-pc-bg.png);
     background-size: cover;
     padding: 3vw;
 }
-.lp-trouble-box h2{
-    font-size: min(3vmin, 30px);
+.lp-loxoprofen-trouble-box h2{
+    font-size: min(4vmax, 50px);
     line-height: 1.5;
     margin-top: 40px;
     margin-bottom: 30px;
-    font-family: var(--font-min);
+    font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
 }
-.lp-trouble-box h2 span{
-    font-size: min(4.4vmin, 44px);
+.lp-loxoprofen-trouble-box h2 span{
+    font-size: min(4.4vmax, 44px);
 }
-.lp-trouble-item-01,
-.lp-trouble-item-02,
-.lp-trouble-item-03,
-.lp-trouble-item-04{
+.lp-loxoprofen-trouble-item-01,
+.lp-loxoprofen-trouble-item-02,
+.lp-loxoprofen-trouble-item-03,
+.lp-loxoprofen-trouble-item-04{
     display: flex;
     background-color: rgb(0,0,0,0.6);
     color: #fff;
@@ -224,26 +160,26 @@
     align-items: center;
     border-radius: 10px;
 }
-.lp-trouble-item-01 img,
-.lp-trouble-item-02 img,
-.lp-trouble-item-03 img,
-.lp-trouble-item-04 img{
+.lp-loxoprofen-trouble-item-01 img,
+.lp-loxoprofen-trouble-item-02 img,
+.lp-loxoprofen-trouble-item-03 img,
+.lp-loxoprofen-trouble-item-04 img{
     width: 100%;
     max-width: 35px;
     height: 100%;
     margin-right: 10px;
 }
-.lp-trouble-item-01 p,
-.lp-trouble-item-02 p,
-.lp-trouble-item-03 p,
-.lp-trouble-item-04 p{
-    font-size: min(2.6vmin, 18px);
+.lp-loxoprofen-trouble-item-01 p,
+.lp-loxoprofen-trouble-item-02 p,
+.lp-loxoprofen-trouble-item-03 p,
+.lp-loxoprofen-trouble-item-04 p{
+    font-size: min(2.6vmax, 18px);
     font-weight: bold;
 }
-.lp-trouble-item-01 p span,
-.lp-trouble-item-02 p span,
-.lp-trouble-item-03 p span,
-.lp-trouble-item-04 p span{
+.lp-loxoprofen-trouble-item-01 p span,
+.lp-loxoprofen-trouble-item-02 p span,
+.lp-loxoprofen-trouble-item-03 p span,
+.lp-loxoprofen-trouble-item-04 p span{
     color: #fefc00;
 }
 
@@ -266,8 +202,8 @@
     padding: 1%;
     margin: auto;
     text-align: center;
-    border-radius: 20px 20px 0 0;
-    font-size: min(4vmin, 40px);
+    border-radius: 10px 10px 0 0;
+    font-size: min(3.6vmax, 32px);
     font-weight: bold;
 }
 .lp-loxoprofen-offer-28{
@@ -281,8 +217,8 @@
 }
 .lp-loxoprofen-offer-box{
     background-color: #fff;
-    border-radius: 0 0 20px 20px;
-    padding: 3% 3% 0 3%;
+    border-radius: 0 0 10px 10px;
+    padding: 3% 3% 4% 3%;
     margin-bottom: 5%;
 }
 .lp-loxoprofen-offer-flex{
@@ -306,18 +242,18 @@
     padding: 1.5%;
 }
 .lp-loxoprofen-offer-product-name h3{
-    font-size: min(3.4vmin,40px);
+    font-size: min(3.4vmax,40px);
     font-weight: bold;
 }
 .lp-loxoprofen-offer-product-name p{
-    font-size: min(3vmin, 30px);
+    font-size: min(3vmax, 30px);
     font-weight: bold;
 }
 .lp-loxoprofen-offer-product-name span{
     border: 1px solid #333;
     margin-right: 1%;
     padding: 1%;
-    font-size: min(2.5vmin, 25px);
+    font-size: min(2.5vmax, 25px);
 }
 .lp-loxoprofen-offer-product-price{
     display: flex;
@@ -339,10 +275,11 @@
     margin-bottom: 2%;
     color: #D70000;
     font-weight: bold;
-    font-size: min(2.8vmin, 28px);
+    font-size: min(2.8vmax, 28px);
 }
 .lp-loxoprofen-offer-cta{
     text-align: center;
+    margin-top: 8%;
 }
 .lp-loxoprofen-offer-cta img{
     width: 90%;
@@ -376,11 +313,11 @@
 .lp-loxoprofen-product-detail-box h2{
     margin-bottom: 2%;
     font-weight: bold;
-    font-size: min(4.2vmin, 42px);
+    font-size: min(4.2vmax, 42px);
 }
 .lp-loxoprofen-product-detail-box p{
-    text-align: left;
-    font-size: min(2.4vmin, 24px);
+    text-align: center;
+    font-size: min(2.4vmax, 24px);
     line-height: 2.5;
     margin-bottom: 20px;   
 }
@@ -393,7 +330,7 @@
     margin: 0 auto;
     margin-top: 2%;
     padding: 0;
-    font-size: min(4.2vmin, 42px);;
+    font-size: min(4.2vmax, 42px);;
     color: #fff;
     font-weight: bold;
 }
@@ -404,23 +341,25 @@
     width: 100%;
 }
 .lp-loxoprofen-detail-conclusion{
-    font-size: min(4vmin, 40px);
+    font-size: min(4vmax, 40px);
     line-height: 1.5;
-    margin: 3% 0;
+    margin: 8% 0 0 0;
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
 }
 .lp-loxoprofen-detail-conclusion span{
     color: #0851BC;
-    font-size: min(8vmin, 80px);
+    font-size: min(8vmax, 80px);
 }
 
 
 /*explain*/
 .lp-loxoprofen-explain-area{
     background: url(../img/explain-bg.png);
-    background-size: cover;
-    padding: 3vw 2vw;
-    margin-top: -1%;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3vw 3vw 6vw 3vw;
+    background-position: top center;
 }
 .lp-loxoprofen-explain-area h2{
     background: linear-gradient(to bottom right, #2DA3E3, #0A3AB2);
@@ -430,6 +369,7 @@
     padding: 1% 2%;
     color: #fffc00;
     font-weight: bold;
+    font-size: min(2.5vmax, 50px);
 }
 .lp-loxoprofen-copy-img{
     margin-bottom: 3%;
@@ -437,12 +377,13 @@
 .lp-loxoprofen-copy-img h3{
     margin-top: 2%;
     color: #0b3ab2;
-    font-size: min(3.5vmin, 35px);
+    font-size: min(3.5vmax, 50px);
     font-weight: bold;
 }
 .lp-loxoprofen-copy-img p{
-    font-size: min(2vmin, 20px);;
+    font-size: min(2vmax, 20px);;
     font-weight: normal;
+    margin-top: 20px;
 }
 .lp-loxoprofen-copy-img img{
     width: 90%;
@@ -455,23 +396,41 @@
     color: #fff;
 }
 .lp-loxoprofen-explain h3{
-    font-size: min(4.2vmin, 42px);
+    font-size: min(4.2vmax, 42px);
+    font-weight: bold;
 }
 .lp-loxoprofen-explain p{
-    font-size: min(2.4vmin, 24px);
+    font-size: min(2.4vmax, 24px);
     line-height: 2.5;
     margin-bottom: 20px;   
+    font-size: min(2.2vmax, 24px);
 }
 .lp-loxoprofen-explain-yellow{
     color: #fffc00;
+    font-weight: bold;
 }
 .lp-loxoprofen-explain-component-title{
     margin-top: 5%;
     font-weight: bold;
+    font-size: min(4vmax, 50px);
+    line-height: 1.5;
+    margin-bottom: 3%;
 }
+
+.lp-loxoprofen-explain-img img{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
 .lp-loxoprofen-explain-component-additional{
     color: #ff0101;
+    font-size: min(6vmax, 60px);
 }
+.lp-loxoprofen-explain-component-two{
+font-size: min(4vmax, 50px);
+}
+
 .lp-loxoprofen-explain-component-two span{
     color: #ff0101;
 }
@@ -479,7 +438,7 @@
     margin: 5% 0;
 }
 .lp-loxoprofen-product-detail-img img{
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -491,8 +450,9 @@
 .lp-loxoprofen-lasting h2{
     background-color: #000F6E;
     padding: 2%;
-    font-size: min(4.2vmin, 42px);
+    font-size: min(4.2vmax, 42px);
     color: #fff;
+    font-weight: bold;
 }
 .lp-loxoprofen-lasting-flex{
     display: flex;
@@ -511,7 +471,7 @@
     background-color: #000F6E;
     border-radius: 9999px;
     margin: 3% 10%;
-    font-size: min(4.2vmin, 42px);
+    font-size: min(4.2vmax, 42px);
     color: #fff;
     font-weight: bold;
 }
@@ -519,12 +479,12 @@
     padding: 2% 1%;
     margin-bottom: 5%;
     color: #000F6E;
-    font-size: min(4vmin, 40px);
+    font-size: min(4vmax, 40px);
     font-weight: bold;
     line-height: 1.5;
 }
 .lp-loxoprofen-lasting-copy span{
-    font-size: min(6vmin, 60px);
+    font-size: min(6vmax, 60px);
 }
 .lp-loxoprofen-merit-flex{
     display: flex;
@@ -547,11 +507,11 @@
     width: 50%;
     padding: 1%;
     line-height: 1.5;
-    font-size: min(3.4vmin, 40px);
+    font-size: min(2.4vmax, 40px);
     font-weight: bold;
 }
 .lp-loxoprofen-merit-text span{
-    font-size: min(5vmin,50px);
+    font-size: min(5vmax,50px);
     color: #ff0101;
 }
 
@@ -568,7 +528,7 @@
     margin: auto;
     text-align: center;
     border-radius: 20px 20px 0 0;
-    font-size: min(4vmin, 40px);
+    font-size: min(4vmax, 40px);
     font-weight: bold;
 }
 .lp-loxoprofen-price-box{
@@ -583,14 +543,29 @@
     padding: 2% 0;
     color: #fff;
     font-weight: bold;
-    font-size: min(4vmin, 20px);
+    font-size: min(4vmax, 20px);
     line-height: 1.8;
 }
 .lp-loxoprofen-price-special-offer-title span{
-    font-size: min(6vmin, 30px);
+    font-size: min(6vmax, 30px);
 }
+
+.lp-loxoprofen-offer-benefits h3{
+    background-color: #2f76ec;
+    text-align: center;
+    color: #fff;
+    padding: 2% 0;
+    font-weight: bold;
+    font-size: min(2vmax, 20px);
+    line-height: 1.8;
+}
+
+.lp-loxoprofen-offer-benefits h3 span{
+    font-size: min(3vmax, 30px);
+}
+
 .lp-loxoprofen-offer-benefits-box{
-    background-color: #fff8da;
+    background-color: #c7dbff;
     display: flex;
     padding: 3%;
     justify-content: space-around;
@@ -603,10 +578,11 @@
     width: 30%;
     text-align: center;
 }
+
 .lp-loxoprofen-offer-benefits-no{
-    background-color: #0851BC;
+    background-color: #fd5151;
     color: #fff;
-    font-size: min(2.4vmin, 24px);
+    font-size: min(2.4vmax, 24px);
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
@@ -615,14 +591,16 @@
     padding: 5% 3%;
     line-height: 1;
 }
+
 .lp-loxoprofen-offer-benefits-text{
-    font-size: min(7.05vmin, 18px);
+    font-size: min(6vmax, 14px);
     display: block;
     text-align: center;
     margin-bottom: 10px;
 }
+
 .lp-loxoprofen-offer-benefits-main-text{
-    font-size: min(3vmin, 30px);
+    font-size: min(3.2vmax, 30px);
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
@@ -630,35 +608,39 @@
     color: #fd5151;
     line-height: 1.2;
 }
+
 .lp-loxoprofen-offer-benefits-free{
     display: block;
     background-color: yellow;
     color: #fd5151;
     padding: 2%;
-    font-size: min(1.6vmin, 16px);
+    font-size: min(1.6vmax, 16px);
     font-weight: bold;
     text-align: center;
     border-radius: 10px;
 }
+
 .lp-loxoprofen-reason-area{
     text-align: center;
     background-color: #fff;
     border-radius: 0 0 15px 15px;
-    padding: 3% 5%;
+    padding: 8% 3% 5% 3%;
 }
 .lp-loxoprofen-reason-img{
     width: 100%;
 }
 .lp-loxoprofen-reason-title{
-    font-size: min(3vmin, 30px);
+    font-size: min(3vmax, 30px);
     font-weight: bold;
     margin-bottom: 3%;
     line-height: 1.5;
+    font-family:'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
 }
 .lp-loxoprofen-reason-title span{
-    font-size: min(8vmin, 80px);
+    font-size: min(8vmax, 80px);
     font-weight: bold;
 }
+
 
 
 /* line--------------------------------------- */
@@ -675,7 +657,7 @@
     border-radius: 5px;
     padding: 2%;
     color: #fff;
-    font-size: min(3vmin, 30px);
+    font-size: min(3vmax, 30px);
     font-weight: bold;
     position: absolute;
     right: 0;
@@ -696,7 +678,7 @@
     text-align: center;
 }
 .lp-loxoprofen-line-title{
-    font-size: min(3vmin, 30px);
+    font-size: min(3vmax, 30px);
     font-family: var(--font-gothic);
     line-height: 1.2;
     color: #333;
@@ -704,15 +686,15 @@
     margin-bottom: 30px;
 }
 .lp-loxoprofen-line-title span{
-    font-size: min(6vmin, 60px);
+    font-size: min(6vmax, 60px);
 }
 .lp-loxoprofen-line-explanatory{
     text-align: center;
-    font-size: min(2.4vmin, 24px);
+    font-size: min(2.4vmax, 24px);
 }
 .lp-loxoprofen-line-explanatory span{
     color: #e23636;
-    font-size: min(2.4vmin,24px);
+    font-size: min(2.4vmax,24px);
 }
 
 .lp-loxoprofen-line-cta{
@@ -729,7 +711,7 @@
     padding: 3vw;
 }
 .lp-loxoprofen-faq h2{
-    font-size: min(4vmin, 40px);
+    font-size: min(4vmax, 40px);
     text-align: center;
 }
 .lp-loxoprofen-faq-item {
@@ -747,14 +729,14 @@
     font-weight: 600;
     cursor: pointer;
     padding: 2% 0 2% 10%;
-    font-size: min(2.6vmin, 26px);
+    font-size: min(2.6vmax, 26px);
 }
 .lp-loxoprofen-faq-item summary::before,
 .lp-loxoprofen-faq-item p::before {
     position: absolute;
     left: 2%;
     font-weight: 600;
-    font-size: min(4.8vmin, 48px);
+    font-size: min(4.8vmax, 48px);
 }
 .lp-loxoprofen-faq-item summary::before {
     color: #75bbff;
@@ -791,6 +773,7 @@
     line-height: 1.2;
     content: "A";
 }
+
 
 
 @media screen and (max-width: 768px){
@@ -842,7 +825,6 @@
 
 
     .lp-loxoprofen-fv .lp-loxoprofen-text h1{
-        font-family: var(--font-min);
         font-size: min(13vmin, 100px);
         position: absolute;
         top: 12%;
@@ -857,31 +839,36 @@
 
     .lp-loxoprofen-fv .lp-loxoprofen-text a{
         position: absolute;
-        bottom:4%;
+        bottom:0%;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
     }
 
-    /* point-------------------------------- */
-    .lp-loxoprofen-point-1 p,
-    .lp-loxoprofen-point-2 p,
-    .lp-loxoprofen-point-3 p{
-        font-size: min(2vmin, 20px);
+    .lp-loxoprofen-fv-point{
+        width: 100%;
+        position: absolute;
+        transform: translateX(-50%);
+        padding: 10px;
+        bottom: 16%;
     }
 
-    .lp-loxoprofen-point-color{
-        color: #0851BC;
-        font-size: min(2.5vmin, 25px);
+    .lp-loxoprofen-fv-btn{
+        position: absolute;
+        bottom:0%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
     }
-    .lp-loxoprofen-point-detail{
-        font-size: 5px;
-    }
+    
+    /* troubl */
+
     .lp-loxoprofen-trouble{
         margin-top: -6%;
+        padding: 16% 3% 0 3%;
     }
 
-    .lp-trouble-box{
+    .lp-loxoprofen-trouble-box{
         background: url(../img/trouble-sp-bg.png);
         padding-top: 160%;
         background-repeat: no-repeat;
@@ -891,7 +878,7 @@
         background-size: contain;
     }
 
-    .lp-trouble-box h2{
+    .lp-loxoprofen-trouble-box h2{
         position: absolute;
         width: 90%;
         top: 2%;
@@ -901,10 +888,10 @@
         margin-top: 20px;
         font-size: min(5vmin, 30px);
     }
-    .lp-trouble-box h2 span{
+    .lp-loxoprofen-trouble-box h2 span{
         font-size: min(6.4vmin, 44px);
     }
-    .lp-trouble-item-box{
+    .lp-loxoprofen-trouble-item-box{
         position: absolute;
         width: 90%;
         box-sizing: border-box;
@@ -912,26 +899,26 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .lp-trouble-item-01,
-    .lp-trouble-item-02,
-    .lp-trouble-item-03,
-    .lp-trouble-item-04{
+    .lp-loxoprofen-trouble-item-01,
+    .lp-loxoprofen-trouble-item-02,
+    .lp-loxoprofen-trouble-item-03,
+    .lp-loxoprofen-trouble-item-04{
         padding: 2vw;
         width: 100%;
         align-items: center;
         border-radius: 0px;
     }
-    .lp-trouble-item-01 p,
-    .lp-trouble-item-02 p,
-    .lp-trouble-item-03 p,
-    .lp-trouble-item-04 p{
+    .lp-loxoprofen-trouble-item-01 p,
+    .lp-loxoprofen-trouble-item-02 p,
+    .lp-loxoprofen-trouble-item-03 p,
+    .lp-loxoprofen-trouble-item-04 p{
         font-size: min(3.2vmin, 20px);
     }
 
 
     /* product-detail*/
     .lp-loxoprofen-detail-conclusion span{
-        font-size: min(6vmin, 24px);
+        font-size: min(7vmin, 38px);
     }
 
 
@@ -940,67 +927,110 @@
     .lp-loxoprofen-offer{
         padding: 3vw;
     }
+    .lp-loxoprofen-offer-box {
+        padding: 3% 3% 6% 3%;
+    }
     .lp-loxoprofen-offer-box h3{
         text-align: center;
         font-weight: bold;
     }
-    .lp-loxoprofen-offer-benefits-box{
-        flex-direction: column;
+
+    .lp-loxoprofen-offer-title {
+        font-size: min(4.8vmin, 43px);
     }
+
+    .lp-loxoprofen-offer-product-name span {
+        font-size: min(1.8vmax, 30px);
+        font-weight: bold;
+    }
+
+    .lp-loxoprofen-offer-box h3 {
+        font-size: min(4.8vmin, 40px);
+    }
+
+    .lp-loxoprofen-offer-text {
+        font-size: min(3.6vmin, 28px);
+    }
+
+    .lp-loxoprofen-offer-product-name p {
+        font-size: min(3vmin, 30px);
+        font-weight: bold;
+    }
+
+    .lp-loxoprofen-offer-benefits h3{
+        text-align: center;
+        color: #fff;
+        padding: 2% 0;
+        font-weight: bold;
+        font-size: min(4vmin, 20px);
+        line-height: 1.8;
+    }
+
+    .lp-loxoprofen-offer-benefits h3 span{
+        font-size: min(6vmin, 30px);
+    }
+
+    .lp-loxoprofen-offer-benefits-box{
+        background-color: #fff8da;
+        display: block;
+        padding: 3%;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+
     .lp-loxoprofen-offer-benefits-item{
-        display: flex;
+        background-color: #fff;
+        border-radius: 20px;
+        padding: 6%;
         width: 100%;
-        border-radius: 0;
-        padding: 0;
+        text-align: center;
         margin-bottom: 3vw;
     }
+
     .lp-loxoprofen-offer-benefits-no{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30%;
-        border-radius: 0;
+        background-color: #fd5151;
+        color: #fff;
         font-size: min(5.4vmin, 24px);
-        padding: 8% 3%;
-        margin: 0;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        border-radius: 30px;
+        padding: 3%;
+        line-height: 1;
     }
-    .lp-loxoprofen-offer-benefits-relative{
-        position: relative;
+
+    .lp-loxoprofen-offer-benefits-text{
+        font-size: min(7.05vmin, 18px);
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
     }
-    .lp-loxoprofen-offer-benefits-absolute{
-        position: absolute;
+
+    .lp-loxoprofen-offer-benefits-main-text{
+        font-size: min(8vmin, 50px);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        color: #fd5151;
+        line-height: 1.2;
+    }
+
+    .lp-loxoprofen-offer-benefits-free{
+        display: block;
         background-color: yellow;
         color: #fd5151;
-        font-size: min(2vmin, 8px);
-    }
-    .lp-loxoprofen-offer-benefits-sp-box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        padding: 1%;
-    }
-    .lp-loxoprofen-offer-benefits-text{
-        margin: 0;
-        font-size: min(3vmin, 20px);
-    }
-    .lp-loxoprofen-offer-benefits-main-text{
-        margin: 0;
-        font-size: min(4vmin, 40px);
-    }
-    .lp-loxoprofen-offer-benefits-free{
+        padding: 2%;
         font-size: min(5.6vmin, 22px);
-        display: none;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
     }
-    .lp-loxoprofen-reason-area{
-        border-radius: 0;
-    }
-    .lp-loxoprofen-reason-title{
-        font-size: min(5vmin, 30px);
-    }
-    .lp-loxoprofen-reason-title span{
-        font-size: min(8vmin, 50px);
+
+    .lp-loxoprofen-reason-title span {
+        font-size: min(7vmin, 80px);
+        font-weight: bold;
     }
 
 
@@ -1009,34 +1039,49 @@
         font-size: min(3.5vmin, 24px);
     }
 
+    .lp-loxoprofen-product-detail-box h2 {
+        font-size: min(2.6vmax, 42px);
+        line-height: 1.5;
+    }
 
+    .lp-loxoprofen-product-detail-box p {
+        text-align: center;
+        font-size: min(1.8vmax, 24px);
+        line-height: 2.5;
+        margin-bottom: 20px;
+        letter-spacing: 0.6px;
+    }
+
+    .lp-loxoprofen-product-detail-coution {
+        font-size: min(2.2vmax, 42px);
+    }
 
     /* about------------------------------------------- */
-    .lp-about{
+    .lp-loxoprofen-about{
         background-color: #fff9d7;
     }
 
-    .lp-about-title{
+    .lp-loxoprofen-about-title{
         position: relative;
     }
 
-    .lp-about-title-inner h2{
+    .lp-loxoprofen-about-title-inner h2{
         position: absolute;
         top: 3%;
         width: 100%;
         font-size: min(6vmin, 60px);
-        font-family: var(--font-min);
+        font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
         line-height: 1.2;
     }
-    .lp-about-title-inner h2 span{
+    .lp-loxoprofen-about-title-inner h2 span{
         font-size: min(4vmin, 40px);
     }
-    .lp-about-title{
+    .lp-loxoprofen-about-title{
         color: #fff;
         margin: auto;
         text-align: center;
     }
-    .lp-about-point-box{
+    .lp-loxoprofen-about-point-box{
         display: flex;
         position: absolute;
         top: 80%;
@@ -1046,12 +1091,12 @@
         transform: translateX(-50%);
     }
 
-    .lp-about-point-box img {
+    .lp-loxoprofen-about-point-box img {
         padding: 1vw;
         width: 100%;
     }
 
-    .lp-about-explanation{
+    .lp-loxoprofen-about-explanation{
         background-color: #fff;
         border-radius: 20px;
         margin: 3vw;
@@ -1059,68 +1104,108 @@
         box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     }
 
-    .lp-about-explanation h3{
+    .lp-loxoprofen-about-explanation h3{
         text-align: center;
         font-weight: bold;
         font-size: min(4.5vmin, 42px);
         padding: 14px 0;
     }
 
-    .lp-about-explanation h3 span{
+    .lp-loxoprofen-about-explanation h3 span{
         color: var(--accent-color);
     }
 
-    .lp-about-explanation p{
+    .lp-loxoprofen-about-explanation p{
         font-size: min(3.8vmin, 24px);
         line-height: 2;
         margin-bottom: 20px;
     }
 
-    .lp-about-explanation p span{
+    .lp-loxoprofen-about-explanation p span{
         color: var(--accent-color);
         font-weight: bold;
     }
 
-    .lp-about-explanation img{
+    .lp-loxoprofen-about-explanation img{
         display: block;
         text-align: center;
         margin: auto;
         width: 80%;
     }
 
-    .lp-about-conclusion-end p{
+    .lp-loxoprofen-about-conclusion-end p{
         text-align: center;
         font-size: min(7vmin, 40px);
         line-height: 1.5;
-        font-family: var(--font-min);
+        font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
         padding-top: 5%;
     }
 
-    .lp-about-conclusion-end p span{
+    .lp-loxoprofen-about-conclusion-end p span{
         font-size: min(8vmin, 80px);
         color: var(--accent-color);
     }
 
-    .lp-about-conclusion{
+    .lp-loxoprofen-about-conclusion{
         position: absolute;
         top: 0;
         width: 100%;
     }
 
-    .lp-about-conclusion h2{
+    .lp-loxoprofen-about-conclusion h2{
         font-size: min(4vmin, 40px);
         text-align: center;
     }
 
+    .lp-loxoprofen-explain-area {
+        padding: 16% 3vw 6vw 3vw;
+    }
+
+    .lp-loxoprofen-explain h3 {
+        font-size: min(6.2vmin, 42px);
+    }
+
+    .lp-loxoprofen-explain p {
+        line-height: 2.5;
+        margin-bottom: 20px;
+        font-size: min(3.6vmin, 24px);
+        letter-spacing: 0.5px;
+    }
+
+    .lp-loxoprofen-explain-img img {
+        width: 100%;
+    }
 
     /* line--------------------------------------- */
 
+
     .lp-loxoprofen-line{
+        width: 100%;
+        background-image: url(../img/line-bg.png);
+        position: relative;
         padding: 10vw 3vw 3vw 3vw;
     }
     .lp-loxoprofen-line h2{
+        display: block;
+        text-align: center;
+        background: linear-gradient(to bottom, #16be58, #26ab5b);
+        border-radius: 5px;
         padding: 4% 2%;
+        color: #fff;
+        font-size: min(3vmin, 30px);
+        font-weight: bold;
+        position: absolute;
+        right: 0;
         top: 4%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        line-height: 1.8;
+        box-shadow: 0px 6px 2px #c2e0d6;
+    }
+
+    .lp-loxoprofen-lasting-copy span {
+        font-size: min(8vmin, 60px);
     }
 
     .lp-loxoprofen-line-box{
@@ -1128,37 +1213,79 @@
         border-radius: 5px;
         padding: 15vw 3vw 3vw 3vw;
     }
+    .lp-loxoprofen-line-text{
+        text-align: center;
+    }
     .lp-loxoprofen-line-title{
         font-size: min(4vmin, 30px);
+        font-family: var(--font-gothic);
         line-height: 1.5;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 30px;
     }
     .lp-loxoprofen-line-title span{
         font-size: min(7vmin, 60px);
     }
     .lp-loxoprofen-line-explanatory{
+        text-align: center;
         font-size: min(3.8vmin, 24px);
         line-height: 2;
         margin-bottom: 20px;
     }
+    .lp-loxoprofen-line-explanatory span{
+        color: #e23636;
+        font-size: min(2.4vmin,24px);
+    }
+
+    .lp-loxoprofen-line-cta{
+        text-align: center;
+        margin-top: 5%;
+    }
+    .lp-loxoprofen-line_cta img{
+        width: 80%;
+    }
+
+    /* merit-------------------------------------- */
+
+    .lp-loxoprofen-lasting h2 {
+        font-size: min(4.2vmin, 42px);
+    }
+
+    .lp-loxoprofen-lasting-title {
+        font-size: min(3.8vmin, 42px);
+    }
+
+    .lp-loxoprofen-lasting-copy { 
+        font-size: min(5vmin, 40px);
+    }
+
+    .lp-loxoprofen-merit-text {
+        font-size: min(2.4vmax, 40px);
+    }
+
+    .lp-loxoprofen-merit-text span {
+        font-size: min(4vmin,50px);
+    }
 
     /* faq-------------------------------------- */
 
-    .lp-faq{
+    .lp-loxoprofen-faq{
         padding: 3vw;
     }
 
-    .lp-faq h2{
+    .lp-loxoprofen-faq h2{
         font-size: min(8vmin, 40px);
         text-align: center;
     }
 
-    .lp-faq-item {
+    .lp-loxoprofen-faq-item {
         max-width: 100%;
         margin-bottom: 5px;
         border-bottom: 2px solid #d6dde3;
     }
 
-    .lp-faq-item summary {
+    .lp-loxoprofen-faq-item summary {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1171,20 +1298,20 @@
         font-size: min(4vmin, 26px);
     }
 
-    .lp-faq-item summary::before,
-    .lp-faq-item p::before {
+    .lp-loxoprofen-faq-item summary::before,
+    .lp-loxoprofen-faq-item p::before {
         position: absolute;
         left: 2%;
         font-weight: 600;
         font-size: min(4.8vmin, 48px);
     }
 
-    .lp-faq-item summary::before {
+    .lp-loxoprofen-faq-item summary::before {
         color: #75bbff;
         content: "Q";
     }
 
-    .lp-faq-item summary::after {
+    .lp-loxoprofen-faq-item summary::after {
         transform: translateY(-25%) rotate(45deg);
         width: 7px;
         height: 7px;
@@ -1195,11 +1322,11 @@
         transition: transform .5s;
     }
 
-    .lp-faq-item[open] summary::after {
+    .lp-loxoprofen-faq-item[open] summary::after {
         transform: rotate(225deg);
     }
 
-    .lp-faq-item p {
+    .lp-loxoprofen-faq-item p {
         position: relative;
         transform: translateY(-10px);
         opacity: 0;
@@ -1209,12 +1336,12 @@
         transition: transform .5s, opacity .5s;
     }
 
-    .lp-faq-item[open] p {
+    .lp-loxoprofen-faq-item[open] p {
         transform: none;
         opacity: 1;
     }
 
-    .lp-faq-item p::before {
+    .lp-loxoprofen-faq-item p::before {
         color: #ff8d8d;
         line-height: 1.2;
         content: "A";
