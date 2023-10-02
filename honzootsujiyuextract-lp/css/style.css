@@ -27,13 +27,39 @@
 
 /* btn animation------------------------- */
 
-.lp-hemorrhoids-fv-cta img,
-.lp-hemorrhoids-offer-cta img,
-.lp-hemorrhoids-line-cta img {
+.lp-hemorrhoids-fv-cta img {
   animation: anime1 0.6s ease 0s infinite alternate;
   transform-origin:center;
 }
+
+.lp-hemorrhoids-offer-cta img {
+  animation: anime2 0.6s ease 0s infinite alternate;
+  transform-origin:center;
+}
+
+.lp-hemorrhoids-line-cta img {
+  animation: anime3 0.6s ease 0s infinite alternate;
+  transform-origin:center;
+}
 @keyframes anime1 {
+  from {
+    transform: scale(0.9,0.9);
+  }
+  to {
+    transform: scale(1,1);
+  }
+}
+
+@keyframes anime2 {
+  from {
+    transform: scale(0.9,0.9);
+  }
+  to {
+    transform: scale(1,1);
+  }
+}
+
+@keyframes anime3 {
   from {
     transform: scale(0.9,0.9);
   }
