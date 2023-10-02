@@ -424,21 +424,20 @@
     font-size: min(3vmin, 30px);
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: block;
     color: #fd5151;
     line-height: 1.2;
 }
 
 .lp-hemorrhoids-offer-benefits-free{
-    display: block;
-    background-color: yellow;
+    background-color: #f7f7f7;
     color: #fd5151;
-    padding: 2%;
-    font-size: min(2.6vmin, 18px);
+    padding: 0 2%;
+    font-size: min(2vmin, 18px);
     font-weight: bold;
     text-align: center;
-    border-radius: 10px;
+    border: 1px solid #fd5151;
 }
 
 
@@ -503,7 +502,7 @@
     width: 100%;
     font-size: min(6vmin, 60px);
     font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .lp-hemorrhoids-about-title-inner h2 span{
@@ -541,8 +540,8 @@
 .lp-hemorrhoids-about-explanation{
     background-color: #fff;
     border-radius: 20px;
-    margin: 1.5vw 3vw 2vw 3vw;
-    padding: 3vw;
+    margin: 4% 3vw 2vw 3vw;
+    padding: 5vw 3vw 3vw 3vw;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2);
 }
 
@@ -557,7 +556,7 @@
 }
 
 .lp-hemorrhoids-about-explanation p{
-    font-size: min(2.4vmin, 24px);
+    font-size: min(2.8vmin, 24px);
     line-height: 2.5;
     margin-bottom: 20px;
     text-align: center;
@@ -642,8 +641,9 @@
 }
 
 .lp-hemorrhoids-efficacy-explanation p{
-    font-size: min(2.4vmin, 24px);
+    font-size: min(2.8vmin, 24px);
     line-height: 2.5;
+    text-align: center;
 }
 
 .lp-hemorrhoids-efficacy-explanation p span{
@@ -1017,7 +1017,7 @@
     .lp-hemorrhoids-offer h2{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        font-size: min(4.3vmin, 40px);
+        font-size: min(5.2vmin, 40px);
         padding: 5% 0;
     }
 
@@ -1120,14 +1120,15 @@
         background-color: #a45712;
         text-align: center;
         color: #fff;
-        padding: 2% 0;
+        padding: 4% 0;
         font-weight: bold;
-        font-size: min(4vmin, 20px);
+        font-size: min(3.8vmin, 18px);
         line-height: 1.8;
+        letter-spacing: 2px;
     }
 
     .lp-hemorrhoids-offer-benefits h3 span{
-        font-size: min(6vmin, 30px);
+        font-size: min(5vmin, 28px);
     }
 
     .lp-hemorrhoids-offer-benefits-box{
@@ -1169,7 +1170,7 @@
     }
 
     .lp-hemorrhoids-offer-benefits-main-text{
-        font-size: min(6vmin, 20px);
+        font-size: min(8vmin, 24px);
         font-weight: bold;
         text-align: center;
         margin-bottom: 20px;
@@ -1179,14 +1180,13 @@
     }
 
     .lp-hemorrhoids-offer-benefits-free{
-        display: block;
-        background-color: yellow;
-        color: #fd5151;
-        padding: 2%;
-        font-size: min(5.6vmin, 22px);
+        padding: 0 2%;
+        font-size: min(3.5vmin, 22px);
         font-weight: bold;
         text-align: center;
-        border-radius: 10px;
+        border-radius: 0;
+        width: 80%;
+        margin: 20px auto 0px auto;
     }
 
 
@@ -1245,13 +1245,13 @@
         position: absolute;
         top: 3%;
         width: 100%;
-        font-size: min(6vmin, 60px);
+        font-size: min(8vmin, 60px);
         font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
-        line-height: 1.2;
+        line-height: 1.3;
     }
 
     .lp-hemorrhoids-about-title-inner h2 span{
-        font-size: min(4vmin, 40px);
+        font-size: min(6.4vmin, 40px);
     }
 
     .lp-hemorrhoids-about-title{
@@ -1263,7 +1263,7 @@
     .lp-hemorrhoids-about-point-box{
         display: flex;
         position: absolute;
-        top: 80%;
+        top: 90%;
         width: 90%;
         justify-content: center;
         left: 50%;
@@ -1362,6 +1362,7 @@
         font-size: min(3.8vmin, 24px);
         line-height: 2;
         margin-bottom: 20px;
+        text-align: left;
     }
 
     .lp-hemorrhoids-efficacy-explanation p span{
