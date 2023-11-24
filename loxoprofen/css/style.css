@@ -713,7 +713,7 @@
 .lp-loxoprofen-line h2 {
     display: block;
     text-align: center;
-    background: linear-gradient(to bottom, #16be58, #26ab5b);
+    background: linear-gradient(to bottom, #0bbafb, #4285ec);
     border-radius: 5px;
     padding: 2%;
     color: #fff;
@@ -726,7 +726,7 @@
     transform: translateX(-50%);
     width: 90%;
     line-height: 1.8;
-    box-shadow: 0px 6px 2px #c2e0d6;
+    box-shadow: 0px 6px 2px #c2cbe0;
     font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
 }
 
@@ -1254,7 +1254,7 @@
     .lp-loxoprofen-line h2 {
         display: block;
         text-align: center;
-        background: linear-gradient(to bottom, #16be58, #26ab5b);
+        background: linear-gradient(to bottom, #0bbafb, #4285ec);
         border-radius: 5px;
         padding: 4% 2%;
         color: #fff;
@@ -1267,7 +1267,7 @@
         transform: translateX(-50%);
         width: 90%;
         line-height: 1.8;
-        box-shadow: 0px 6px 2px #c2e0d6;
+        box-shadow: 0px 6px 2px #c2cbe0;
     }
 
     .lp-loxoprofen-lasting-copy span {
