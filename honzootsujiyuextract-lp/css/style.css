@@ -1,26 +1,26 @@
-.lp-hemorrhoids{
+.lp-hemorrhoids {
     color: #333;
     line-height: 2.2;
     letter-spacing: 1px;
-    font-family:'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
 }
 
 /* display none------------------------- */
 
-.lp-hemorrhoids-responsive-pc{
+.lp-hemorrhoids-responsive-pc {
     display: block;
 }
 
-.lp-hemorrhoids-responsive-sp{
+.lp-hemorrhoids-responsive-sp {
     display: none;
 }
 
-@media (max-width: 768px){
-    .lp-hemorrhoids-responsive-pc{
+@media (max-width: 768px) {
+    .lp-hemorrhoids-responsive-pc {
         display: none;
     }
 
-    .lp-hemorrhoids-responsive-sp{
+    .lp-hemorrhoids-responsive-sp {
         display: block;
     }
 }
@@ -28,49 +28,49 @@
 /* btn animation------------------------- */
 
 .lp-hemorrhoids-fv-cta img {
-  animation: anime1 0.6s ease 0s infinite alternate;
-  transform-origin:center;
+    animation: anime1 0.6s ease 0s infinite alternate;
+    transform-origin: center;
 }
 
 .lp-hemorrhoids-offer-cta img {
-  animation: anime2 0.6s ease 0s infinite alternate;
-  transform-origin:center;
+    animation: anime2 0.6s ease 0s infinite alternate;
+    transform-origin: center;
 }
 
 .lp-hemorrhoids-line-cta img {
-  animation: anime3 0.6s ease 0s infinite alternate;
-  transform-origin:center;
+    animation: anime3 0.6s ease 0s infinite alternate;
+    transform-origin: center;
 }
 @keyframes anime1 {
-  from {
-    transform: scale(0.9,0.9);
-  }
-  to {
-    transform: scale(1,1);
-  }
+    from {
+        transform: scale(0.9, 0.9);
+    }
+    to {
+        transform: scale(1, 1);
+    }
 }
 
 @keyframes anime2 {
-  from {
-    transform: scale(0.9,0.9);
-  }
-  to {
-    transform: scale(1,1);
-  }
+    from {
+        transform: scale(0.9, 0.9);
+    }
+    to {
+        transform: scale(1, 1);
+    }
 }
 
 @keyframes anime3 {
-  from {
-    transform: scale(0.9,0.9);
-  }
-  to {
-    transform: scale(1,1);
-  }
+    from {
+        transform: scale(0.9, 0.9);
+    }
+    to {
+        transform: scale(1, 1);
+    }
 }
 
 /* header------------------------- */
 
-.lp-hemorrhoids-header{
+.lp-hemorrhoids-header {
     background-color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -79,14 +79,13 @@
     justify-content: center;
 }
 
-.lp-hemorrhoids-header img{
+.lp-hemorrhoids-header img {
     width: 240px;
 }
 
 /* fv----------------------------- */
 
-
-.lp-hemorrhoids-fv{
+.lp-hemorrhoids-fv {
     background-size: cover;
     position: relative;
 }
@@ -108,7 +107,7 @@
     width: 50vw;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     .lp-hemorrhoids-fv .lp-hemorrhoids-text {
         right: 2%;
         top: 5%;
@@ -116,7 +115,7 @@
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
     .lp-hemorrhoids-fv .lp-hemorrhoids-text {
         right: 2%;
         top: 4%;
@@ -124,7 +123,7 @@
     }
 }
 
-.lp-hemorrhoids-fv .lp-hemorrhoids-text p{
+.lp-hemorrhoids-fv .lp-hemorrhoids-text p {
     background-color: #fd5151;
     font-size: min(3vmin, 27px);
     color: #fff;
@@ -145,8 +144,7 @@
     margin: auto;
 }
 
-
-.lp-hemorrhoids-fv .lp-hemorrhoids-text h1{
+.lp-hemorrhoids-fv .lp-hemorrhoids-text h1 {
     font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
     font-size: min(10vmin, 80px);
     font-weight: bold;
@@ -156,57 +154,54 @@
     color: #fd5151;
 }
 
-@media (max-width: 1100px){
-    .lp-hemorrhoids-fv .lp-hemorrhoids-text h1{
+@media (max-width: 1100px) {
+    .lp-hemorrhoids-fv .lp-hemorrhoids-text h1 {
         font-size: min(8vmin, 80px);
     }
 }
 
-@media (max-width: 900px){
-    .lp-hemorrhoids-fv .lp-hemorrhoids-text h1{
+@media (max-width: 900px) {
+    .lp-hemorrhoids-fv .lp-hemorrhoids-text h1 {
         font-size: min(7vmin, 80px);
     }
 }
 
-.lp-hemorrhoids-fv .lp-hemorrhoids-text img{
+.lp-hemorrhoids-fv .lp-hemorrhoids-text img {
     width: 90%;
     margin-top: 10px;
 }
 
-.lp-hemorrhoids-fv-cta{
-    position: absolute; 
+.lp-hemorrhoids-fv-cta {
+    position: absolute;
     right: 3%;
     bottom: 3px;
     width: 100%;
 }
 
-.lp-hemorrhoids-fv-cta img{
+.lp-hemorrhoids-fv-cta img {
     position: absolute;
     top: 65%;
     right: 0;
 }
 
-.lp-hemorrhoids-fv-point{
+.lp-hemorrhoids-fv-point {
     margin-top: 10px;
 }
 
-
-
 /* point-------------------------------- */
 
-.lp-hemorrhoids-point{
+.lp-hemorrhoids-point {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.lp-hemorrhoids-point img{
+.lp-hemorrhoids-point img {
     width: 100%;
     padding: 2%;
 }
 
-
-.lp-hemorrhoids-trouble{
+.lp-hemorrhoids-trouble {
     background: url(../img/trouble-pink-bg.png);
     background-size: cover;
     padding: 8% 3% 3% 3%;
@@ -214,14 +209,13 @@
     background-position: bottom;
 }
 
-
-.lp-hemorrhoids-trouble-box{
+.lp-hemorrhoids-trouble-box {
     background: url(../img/trouble-pc-bg.png);
     background-size: cover;
     padding: 3vw;
 }
 
-.lp-hemorrhoids-trouble-box h2{
+.lp-hemorrhoids-trouble-box h2 {
     font-size: min(3vmin, 30px);
     line-height: 1.5;
     margin-top: 40px;
@@ -229,16 +223,16 @@
     font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
 }
 
-.lp-hemorrhoids-trouble-box h2 span{
+.lp-hemorrhoids-trouble-box h2 span {
     font-size: min(5.4vmin, 46px);
 }
 
 .lp-hemorrhoids-trouble-item-01,
 .lp-hemorrhoids-trouble-item-02,
 .lp-hemorrhoids-trouble-item-03,
-.lp-hemorrhoids-trouble-item-04{
+.lp-hemorrhoids-trouble-item-04 {
     display: flex;
-    background-color: rgb(0,0,0,0.6);
+    background-color: rgb(0, 0, 0, 0.6);
     color: #fff;
     padding: 1vw;
     width: 58%;
@@ -250,7 +244,7 @@
 .lp-hemorrhoids-trouble-item-01 img,
 .lp-hemorrhoids-trouble-item-02 img,
 .lp-hemorrhoids-trouble-item-03 img,
-.lp-hemorrhoids-trouble-item-04 img{
+.lp-hemorrhoids-trouble-item-04 img {
     width: 100%;
     max-width: 35px;
     height: 100%;
@@ -260,7 +254,7 @@
 .lp-hemorrhoids-trouble-item-01 p,
 .lp-hemorrhoids-trouble-item-02 p,
 .lp-hemorrhoids-trouble-item-03 p,
-.lp-hemorrhoids-trouble-item-04 p{
+.lp-hemorrhoids-trouble-item-04 p {
     font-size: min(2.6vmin, 18px);
     font-weight: bold;
 }
@@ -268,27 +262,25 @@
 .lp-hemorrhoids-trouble-item-01 p span,
 .lp-hemorrhoids-trouble-item-02 p span,
 .lp-hemorrhoids-trouble-item-03 p span,
-.lp-hemorrhoids-trouble-item-04 p span{
+.lp-hemorrhoids-trouble-item-04 p span {
     color: #fefc00;
 }
 
 /* resolution--------------------------------------- */
 
-
-.lp-hemorrhoids-resolution img{
+.lp-hemorrhoids-resolution img {
     width: 100%;
     height: 100%;
 }
 
 /* offer------------------------------------------ */
 
-
-.lp-hemorrhoids-offer{
+.lp-hemorrhoids-offer {
     background: url(../img/offer-bg.png);
     background-size: cover;
 }
 
-.lp-hemorrhoids-offer h2{
+.lp-hemorrhoids-offer h2 {
     background: linear-gradient(180deg, rgb(255, 57, 92), rgb(255, 113, 72));
     color: #fff;
     padding: 3% 0 2% 0;
@@ -302,13 +294,13 @@
     line-height: 2;
 }
 
-.lp-hemorrhoids-offer-bg{
+.lp-hemorrhoids-offer-bg {
     background-color: #fff;
-    box-shadow: 0px 14px 15px -4px rgb(118 118 118 / 50%);;
+    box-shadow: 0px 14px 15px -4px rgb(118 118 118 / 50%);
     border-radius: 20px;
 }
 
-.offer-message{
+.offer-message {
     font-size: min(4vmin, 50px);
     font-weight: bold;
     display: block;
@@ -317,17 +309,17 @@
     margin-bottom: 25px;
 }
 
-.lp-hemorrhoids-offer-box{
+.lp-hemorrhoids-offer-box {
     background-color: #fff;
     border-radius: 0;
     padding: 3vw;
 }
 
-.lp-hemorrhoids-offer-inner{
+.lp-hemorrhoids-offer-inner {
     padding: 3vw;
 }
 
-.lp-hemorrhoids-offer-inner-text-point p{
+.lp-hemorrhoids-offer-inner-text-point p {
     border: 2px solid #fd5151;
     color: #fd5151;
     padding: 2%;
@@ -339,12 +331,12 @@
     line-height: 1;
 }
 
-.lp-hemorrhoids-offer-inner-text-point span{
+.lp-hemorrhoids-offer-inner-text-point span {
     display: block;
     text-align: right;
 }
 
-.lp-hemorrhoids-offer-cta{
+.lp-hemorrhoids-offer-cta {
     margin: auto;
     display: block;
     text-align: center;
@@ -352,7 +344,7 @@
     border-radius: 0 0 10px 10px;
 }
 
-.lp-hemorrhoids-offer a{
+.lp-hemorrhoids-offer a {
     text-decoration: none;
     border: none;
     background: none;
@@ -371,7 +363,7 @@
     opacity: 0.8;
 }
 
-.lp-hemorrhoids-offer-benefits h3{
+.lp-hemorrhoids-offer-benefits h3 {
     background-color: #a45712;
     text-align: center;
     color: #fff;
@@ -381,18 +373,18 @@
     line-height: 1.8;
 }
 
-.lp-hemorrhoids-offer-benefits h3 span{
+.lp-hemorrhoids-offer-benefits h3 span {
     font-size: min(5vmin, 34px);
 }
 
-.lp-hemorrhoids-offer-benefits-box{
+.lp-hemorrhoids-offer-benefits-box {
     background-color: #fff8da;
     display: flex;
     padding: 3%;
     justify-content: space-around;
 }
 
-.lp-hemorrhoids-offer-benefits-item{
+.lp-hemorrhoids-offer-benefits-item {
     background-color: #fff;
     border-radius: 20px;
     padding: 2%;
@@ -400,7 +392,7 @@
     text-align: center;
 }
 
-.lp-hemorrhoids-offer-benefits-no{
+.lp-hemorrhoids-offer-benefits-no {
     background-color: #fd5151;
     color: #fff;
     font-size: min(2.4vmin, 24px);
@@ -413,14 +405,14 @@
     line-height: 1;
 }
 
-.lp-hemorrhoids-offer-benefits-text{
+.lp-hemorrhoids-offer-benefits-text {
     font-size: min(7.05vmin, 18px);
     display: block;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.lp-hemorrhoids-offer-benefits-main-text{
+.lp-hemorrhoids-offer-benefits-main-text {
     font-size: min(3vmin, 30px);
     font-weight: bold;
     text-align: center;
@@ -430,7 +422,7 @@
     line-height: 1.2;
 }
 
-.lp-hemorrhoids-offer-benefits-free{
+.lp-hemorrhoids-offer-benefits-free {
     background-color: #f8ffc7;
     color: #fd5151;
     padding: 0 2%;
@@ -441,15 +433,14 @@
     border-radius: 5px;
 }
 
-
-.lp-hemorrhoids-offer-graph{
+.lp-hemorrhoids-offer-graph {
     padding: 0 3vw 3vw 3vw;
     text-align: center;
     background-color: #fff;
     border-radius: 0 0 20px 20px;
 }
 
-.lp-hemorrhoids-offer-graph h3{
+.lp-hemorrhoids-offer-graph h3 {
     font-size: min(3vmin, 30px);
     font-weight: bold;
     margin-bottom: 40px;
@@ -457,18 +448,17 @@
     font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
 }
 
-.lp-hemorrhoids-offer-graph h3 span{
+.lp-hemorrhoids-offer-graph h3 span {
     font-size: min(8vmin, 80px);
     font-weight: bold;
 }
 
-
-.lp-hemorrhoids-offer-graph img{
+.lp-hemorrhoids-offer-graph img {
     width: 100%;
     margin-bottom: 40px;
 }
 
-.lp-hemorrhoids-offer-graph p{
+.lp-hemorrhoids-offer-graph p {
     background-color: #d52161;
     color: #fff;
     font-size: min(4vmin, 40px);
@@ -488,16 +478,15 @@
 
 /* about------------------------------------------- */
 
-.lp-hemorrhoids-about{
+.lp-hemorrhoids-about {
     background-color: #fff9d7;
 }
 
-
-.lp-hemorrhoids-about-title{
+.lp-hemorrhoids-about-title {
     position: relative;
 }
 
-.lp-hemorrhoids-about-title-inner h2{
+.lp-hemorrhoids-about-title-inner h2 {
     position: absolute;
     top: 3%;
     width: 100%;
@@ -506,17 +495,17 @@
     line-height: 1.4;
 }
 
-.lp-hemorrhoids-about-title-inner h2 span{
+.lp-hemorrhoids-about-title-inner h2 span {
     font-size: min(4vmin, 40px);
 }
 
-.lp-hemorrhoids-about-title{
+.lp-hemorrhoids-about-title {
     color: #fff;
     margin: auto;
     text-align: center;
 }
 
-.lp-hemorrhoids-about-point-box{
+.lp-hemorrhoids-about-point-box {
     display: flex;
     position: absolute;
     top: 83%;
@@ -524,102 +513,101 @@
     justify-content: center;
 }
 
-.lp-hemorrhoids-about-point-box img{
+.lp-hemorrhoids-about-point-box img {
     width: 100%;
     max-width: 200px;
     padding: 1vw;
     height: 100%;
 }
 
-@media (max-width: 900px){
-    .lp-hemorrhoids-about-point-box img{
+@media (max-width: 900px) {
+    .lp-hemorrhoids-about-point-box img {
         width: 90%;
     }
 }
 
-
-.lp-hemorrhoids-about-explanation{
+.lp-hemorrhoids-about-explanation {
     background-color: #fff;
     border-radius: 20px;
     margin: 4% 3vw 2vw 3vw;
     padding: 5vw 3vw 3vw 3vw;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-.lp-hemorrhoids-about-explanation h3{
+.lp-hemorrhoids-about-explanation h3 {
     text-align: center;
     font-weight: bold;
     font-size: min(4.2vmin, 42px);
 }
 
-.lp-hemorrhoids-about-explanation h3 span{
+.lp-hemorrhoids-about-explanation h3 span {
     color: #fd5151;
 }
 
-.lp-hemorrhoids-about-explanation p{
+.lp-hemorrhoids-about-explanation p {
     font-size: min(2.8vmin, 24px);
     line-height: 2.5;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.lp-hemorrhoids-about-explanation p span{
+.lp-hemorrhoids-about-explanation p span {
     color: #fd5151;
     font-weight: bold;
 }
 
-.lp-hemorrhoids-about-explanation img{
+.lp-hemorrhoids-about-explanation img {
     display: block;
     text-align: center;
     margin: auto;
 }
 
-.lp-hemorrhoids-about-conclusion-end p{
+.lp-hemorrhoids-about-conclusion-end p {
     text-align: center;
     font-size: min(4vmin, 40px);
     line-height: 1.5;
     font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
 }
 
-.lp-hemorrhoids-about-conclusion-end p span{
+.lp-hemorrhoids-about-conclusion-end p span {
     font-size: min(8vmin, 80px);
     color: #fd5151;
 }
 
-.lp-hemorrhoids-about-conclusion{
+.lp-hemorrhoids-about-conclusion {
     position: absolute;
     top: 0;
     width: 100%;
 }
 
-.lp-hemorrhoids-about-conclusion h2{
+.lp-hemorrhoids-about-conclusion h2 {
     font-size: min(4vmin, 40px);
     text-align: center;
 }
 
 /* efficac----------------------------------------- */
 
-.lp-hemorrhoids-efficacy{
+.lp-hemorrhoids-efficacy {
     background-image: url(../img/efficacy-bg.png);
     background-size: cover;
     background-position: top;
 }
 
-.lp-hemorrhoids-efficacy-inner{
+.lp-hemorrhoids-efficacy-inner {
     padding: 0 0 5vw 0;
 }
 
-.lp-hemorrhoids-efficacy-inner-item{
+.lp-hemorrhoids-efficacy-inner-item {
     display: flex;
     flex-wrap: wrap;
     padding: 7vw 5vw 3vw 5vw;
 }
 
-.lp-hemorrhoids-efficacy-inner-title{
+.lp-hemorrhoids-efficacy-inner-title {
     text-align: center;
 }
 
-.lp-hemorrhoids-efficacy-inner-title p{
+.lp-hemorrhoids-efficacy-inner-title p {
     background: linear-gradient(180deg, rgb(255, 57, 92), rgb(255, 113, 72));
     font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
     font-size: min(4.4vmin, 44px);
@@ -629,65 +617,62 @@
     padding: 1%;
 }
 
-.lp-hemorrhoids-efficacy-inner-item img{
+.lp-hemorrhoids-efficacy-inner-item img {
     width: 33%;
-    padding:2%;
+    padding: 2%;
     height: 100%;
 }
 
-.lp-hemorrhoids-efficacy-explanation{
-    background-color:rgba(255,255,255,0.6);
+.lp-hemorrhoids-efficacy-explanation {
+    background-color: rgba(255, 255, 255, 0.6);
     width: auto;
     padding: 5%;
 }
 
-.lp-hemorrhoids-efficacy-explanation p{
+.lp-hemorrhoids-efficacy-explanation p {
     font-size: min(2.8vmin, 24px);
     line-height: 2.5;
     text-align: center;
 }
 
-.lp-hemorrhoids-efficacy-explanation p span{
+.lp-hemorrhoids-efficacy-explanation p span {
     font-weight: bold;
     color: #fd5151;
 }
 
 /* method----------------------------------------- */
 
-
-.lp-hemorrhoids-method{
+.lp-hemorrhoids-method {
     background-color: #fff3f7;
     display: flex;
 }
 
-.lp-hemorrhoids-method-img{
+.lp-hemorrhoids-method-img {
     width: 56%;
-
 }
 
-.lp-hemorrhoids-method-text{
+.lp-hemorrhoids-method-text {
     width: 40%;
     padding: 3%;
 }
 
-.lp-hemorrhoids-method-text p{
+.lp-hemorrhoids-method-text p {
     font-size: min(1.2vmin, 12px);
     line-height: 1.2;
     margin-top: 40px;
 }
 
-
 /* line--------------------------------------- */
 
-.lp-hemorrhoids-line{
+.lp-hemorrhoids-line {
     width: 100%;
     position: relative;
     padding: 8% 0 0 0;
 }
-.lp-hemorrhoids-line h2{
+.lp-hemorrhoids-line h2 {
     display: block;
     text-align: center;
-    background: linear-gradient(to bottom, #16be58, #26ab5b);
+    background: linear-gradient(to bottom, #0bbafb, #4285ec);
     border-radius: 5px;
     padding: 2%;
     color: #fff;
@@ -700,53 +685,54 @@
     transform: translateX(-50%);
     width: 90%;
     line-height: 1.8;
-    box-shadow: 0px 6px 2px #c2e0d6;
-    font-family:'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
+    box-shadow: 0px 6px 2px #c2cbe0;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
 }
 
-.lp-hemorrhoids-line-box{
+.lp-hemorrhoids-line-box {
     background-color: #fff;
     border-radius: 20px;
     padding: 12% 3vw 3vw 3vw;
-    box-shadow: 0px 14px 15px -4px rgb(118 118 118 / 50%);;
+    box-shadow: 0px 14px 15px -4px rgb(118 118 118 / 50%);
 }
-.lp-hemorrhoids-line-text{
+.lp-hemorrhoids-line-text {
     text-align: center;
 }
-.lp-hemorrhoids-line-title{
+.lp-hemorrhoids-line-title {
     font-size: min(3vmin, 30px);
     line-height: 1.2;
     color: #333;
     font-weight: bold;
     margin-bottom: 30px;
 }
-.lp-hemorrhoids-line-title span{
+.lp-hemorrhoids-line-title span {
     font-size: min(6vmin, 60px);
+    color: #2548a9;
 }
-.lp-hemorrhoids-line-explanatory{
+.lp-hemorrhoids-line-explanatory {
     text-align: center;
     font-size: min(2.4vmin, 24px);
 }
-.lp-hemorrhoids-line-explanatory span{
+.lp-hemorrhoids-line-explanatory span {
     color: #e23636;
-    font-size: min(2.4vmin,24px);
+    font-size: min(2.4vmin, 24px);
 }
 
-.lp-hemorrhoids-line-cta{
+.lp-hemorrhoids-line-cta {
     text-align: center;
     margin-top: 5%;
 }
-.lp-hemorrhoids-line_cta img{
+.lp-hemorrhoids-line_cta img {
     width: 80%;
 }
 
 /* faq-------------------------------------- */
 
-.lp-hemorrhoids-faq{
+.lp-hemorrhoids-faq {
     padding: 3vw;
 }
 
-.lp-hemorrhoids-faq h2{
+.lp-hemorrhoids-faq h2 {
     font-size: min(4vmin, 40px);
     text-align: center;
 }
@@ -780,7 +766,7 @@
 
 .lp-hemorrhoids-faq-item summary::before {
     color: #75bbff;
-    content: "Q";
+    content: 'Q';
 }
 
 .lp-hemorrhoids-faq-item summary::after {
@@ -791,7 +777,7 @@
     border-bottom: 3px solid #333333b3;
     border-right: 3px solid #333333b3;
     content: '';
-    transition: transform .5s;
+    transition: transform 0.5s;
 }
 
 .lp-hemorrhoids-faq-item[open] summary::after {
@@ -805,7 +791,7 @@
     margin: 0;
     padding: 2% 0 5% 10%;
     color: #333;
-    transition: transform .5s, opacity .5s;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 .lp-hemorrhoids-faq-item[open] p {
@@ -816,15 +802,13 @@
 .lp-hemorrhoids-faq-item p::before {
     color: #ff8d8d;
     line-height: 1.2;
-    content: "A";
+    content: 'A';
 }
 
-
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
     /* header------------------------- */
 
-    .lp-hemorrhoids-header{
+    .lp-hemorrhoids-header {
         background-color: #fff;
         padding: 20px 0;
         text-align: center;
@@ -833,18 +817,17 @@
         justify-content: center;
     }
 
-    .lp-hemorrhoids-header img{
+    .lp-hemorrhoids-header img {
         width: 200px;
     }
 
     /* fv----------------------------- */
 
-
-    .lp-hemorrhoids-fv{
+    .lp-hemorrhoids-fv {
         position: relative;
         width: 100%;
         text-align: center;
-        padding-top:14%;
+        padding-top: 14%;
     }
 
     .lp-hemorrhoids-fv .lp-hemorrhoids-pkg {
@@ -864,14 +847,14 @@
         text-align: center;
     }
 
-    .lp-laxatives-fv-point{
+    .lp-laxatives-fv-point {
         position: absolute;
         bottom: 18%;
         left: 50%;
         transform: translateX(-50%);
     }
 
-    .lp-hemorrhoids-fv .lp-hemorrhoids-text p{
+    .lp-hemorrhoids-fv .lp-hemorrhoids-text p {
         background-color: #fd5151;
         font-size: min(4.2vmin, 22px);
         color: #fff;
@@ -891,8 +874,7 @@
         transform: translateX(-50%);
     }
 
-
-    .lp-hemorrhoids-fv .lp-hemorrhoids-text h1{
+    .lp-hemorrhoids-fv .lp-hemorrhoids-text h1 {
         font-size: min(13vmin, 100px);
         font-weight: bold;
         position: absolute;
@@ -902,13 +884,13 @@
         width: 100%;
     }
 
-    .lp-hemorrhoids-fv .lp-hemorrhoids-text img{
+    .lp-hemorrhoids-fv .lp-hemorrhoids-text img {
         width: 100%;
     }
 
-    .lp-hemorrhoids-fv .lp-hemorrhoids-text a{
+    .lp-hemorrhoids-fv .lp-hemorrhoids-text a {
         position: absolute;
-        bottom:19%;
+        bottom: 19%;
         left: 50%;
         transform: translateX(-50%);
         width: 100%;
@@ -916,25 +898,25 @@
 
     /* point-------------------------------- */
 
-    .lp-hemorrhoids-point{
+    .lp-hemorrhoids-point {
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
     }
 
-    .lp-hemorrhoids-point img{
+    .lp-hemorrhoids-point img {
         width: 100%;
         padding: 2%;
     }
 
-    .lp-hemorrhoids-trouble{
+    .lp-hemorrhoids-trouble {
         background: url(../img/trouble-pink-bg.png);
         background-size: cover;
         padding: 13% 3% 6% 3%;
         margin-top: -7%;
     }
 
-    .lp-hemorrhoids-trouble-box{
+    .lp-hemorrhoids-trouble-box {
         background: url(../img/trouble-sp-bg.png);
         padding-top: 160%;
         background-repeat: no-repeat;
@@ -944,7 +926,7 @@
         background-size: contain;
     }
 
-    .lp-hemorrhoids-trouble-box h2{
+    .lp-hemorrhoids-trouble-box h2 {
         position: absolute;
         width: 90%;
         top: 2%;
@@ -955,11 +937,11 @@
         font-size: min(5vmin, 30px);
     }
 
-    .lp-hemorrhoids-trouble-box h2 span{
+    .lp-hemorrhoids-trouble-box h2 span {
         font-size: min(6.4vmin, 44px);
     }
 
-    .lp-hemorrhoids-trouble-item-box{
+    .lp-hemorrhoids-trouble-item-box {
         position: absolute;
         width: 90%;
         box-sizing: border-box;
@@ -971,9 +953,9 @@
     .lp-hemorrhoids-trouble-item-01,
     .lp-hemorrhoids-trouble-item-02,
     .lp-hemorrhoids-trouble-item-03,
-    .lp-hemorrhoids-trouble-item-04{
+    .lp-hemorrhoids-trouble-item-04 {
         display: flex;
-        background-color: rgb(0,0,0,0.6);
+        background-color: rgb(0, 0, 0, 0.6);
         color: #fff;
         padding: 2vw;
         width: 100%;
@@ -985,7 +967,7 @@
     .lp-hemorrhoids-trouble-item-01 img,
     .lp-hemorrhoids-trouble-item-02 img,
     .lp-hemorrhoids-trouble-item-03 img,
-    .lp-hemorrhoids-trouble-item-04 img{
+    .lp-hemorrhoids-trouble-item-04 img {
         width: 100%;
         max-width: 35px;
         height: 100%;
@@ -995,7 +977,7 @@
     .lp-hemorrhoids-trouble-item-01 p,
     .lp-hemorrhoids-trouble-item-02 p,
     .lp-hemorrhoids-trouble-item-03 p,
-    .lp-hemorrhoids-trouble-item-04 p{
+    .lp-hemorrhoids-trouble-item-04 p {
         font-size: min(3.2vmin, 20px);
         font-weight: bold;
     }
@@ -1003,7 +985,7 @@
     .lp-hemorrhoids-trouble-item-01 p span,
     .lp-hemorrhoids-trouble-item-02 p span,
     .lp-hemorrhoids-trouble-item-03 p span,
-    .lp-hemorrhoids-trouble-item-04 p span{
+    .lp-hemorrhoids-trouble-item-04 p span {
         color: #fefc00;
     }
 
@@ -1015,25 +997,25 @@
         padding: 6vw 3vw;
     }
 
-    .lp-hemorrhoids-offer h2{
+    .lp-hemorrhoids-offer h2 {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         font-size: min(5.2vmin, 40px);
         padding: 5% 0;
     }
 
-    .lp-hemorrhoids-offer-annotation-box{
+    .lp-hemorrhoids-offer-annotation-box {
         background-color: #fff;
         padding: 1vw 3vw 3vw 3vw;
         margin-top: -2%;
     }
 
-    .lp-hemorrhoids-offer-annotation-box li{
+    .lp-hemorrhoids-offer-annotation-box li {
         font-size: min(3vmin, 14px);
         line-height: 1.8;
     }
 
-    .lp-hemorrhoids-offer-inner-box{
+    .lp-hemorrhoids-offer-inner-box {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -1041,19 +1023,19 @@
         display: block;
     }
 
-    .lp-hemorrhoids-offer-inner img{
+    .lp-hemorrhoids-offer-inner img {
         width: 30%;
         height: 100%;
     }
 
-    .lp-hemorrhoids-offer-inner-text img{
+    .lp-hemorrhoids-offer-inner-text img {
         width: 100%;
         height: auto;
     }
 
-    .lp-hemorrhoids-offer-inner-text h3{
+    .lp-hemorrhoids-offer-inner-text h3 {
         font-weight: bold;
-        font-size: min(5vmin,34px);
+        font-size: min(5vmin, 34px);
         margin-bottom: 10px;
         position: absolute;
         top: 6%;
@@ -1063,7 +1045,7 @@
         text-align: center;
     }
 
-    .lp-hemorrhoids-offer-inner-text-point p{
+    .lp-hemorrhoids-offer-inner-text-point p {
         border: 2px solid #fd5151;
         color: #fd5151;
         padding: 4% 0;
@@ -1075,12 +1057,12 @@
         line-height: 1;
     }
 
-    .lp-hemorrhoids-offer-inner-text-point span{
+    .lp-hemorrhoids-offer-inner-text-point span {
         display: block;
         text-align: right;
     }
 
-    .lp-hemorrhoids-offer-cta{
+    .lp-hemorrhoids-offer-cta {
         margin: auto;
         display: block;
         text-align: center;
@@ -1098,7 +1080,7 @@
         border-radius: 0;
     }
 
-    .lp-hemorrhoids-offer a{
+    .lp-hemorrhoids-offer a {
         text-decoration: none;
         border: none;
         background: none;
@@ -1117,7 +1099,7 @@
         opacity: 0.8;
     }
 
-    .lp-hemorrhoids-offer-benefits h3{
+    .lp-hemorrhoids-offer-benefits h3 {
         background-color: #a45712;
         text-align: center;
         color: #fff;
@@ -1128,11 +1110,11 @@
         letter-spacing: 2px;
     }
 
-    .lp-hemorrhoids-offer-benefits h3 span{
+    .lp-hemorrhoids-offer-benefits h3 span {
         font-size: min(5vmin, 28px);
     }
 
-    .lp-hemorrhoids-offer-benefits-box{
+    .lp-hemorrhoids-offer-benefits-box {
         background-color: #fff8da;
         display: block;
         padding: 3%;
@@ -1140,7 +1122,7 @@
         margin-bottom: 0px;
     }
 
-    .lp-hemorrhoids-offer-benefits-item{
+    .lp-hemorrhoids-offer-benefits-item {
         background-color: #fff;
         border-radius: 10px;
         padding: 6%;
@@ -1150,7 +1132,7 @@
         box-shadow: 0 0 6px #dddddd;
     }
 
-    .lp-hemorrhoids-offer-benefits-no{
+    .lp-hemorrhoids-offer-benefits-no {
         background-color: #fd5151;
         color: #fff;
         font-size: min(5.4vmin, 24px);
@@ -1163,14 +1145,14 @@
         line-height: 1;
     }
 
-    .lp-hemorrhoids-offer-benefits-text{
+    .lp-hemorrhoids-offer-benefits-text {
         font-size: min(6.05vmin, 16px);
         display: block;
         text-align: center;
         margin-bottom: 4px;
     }
 
-    .lp-hemorrhoids-offer-benefits-main-text{
+    .lp-hemorrhoids-offer-benefits-main-text {
         font-size: min(8vmin, 24px);
         font-weight: bold;
         text-align: center;
@@ -1180,7 +1162,7 @@
         line-height: 1.2;
     }
 
-    .lp-hemorrhoids-offer-benefits-free{
+    .lp-hemorrhoids-offer-benefits-free {
         padding: 0 2%;
         font-size: min(3.5vmin, 22px);
         font-weight: bold;
@@ -1190,14 +1172,13 @@
         margin: 20px auto 0px auto;
     }
 
-
-    .lp-hemorrhoids-offer-graph{
+    .lp-hemorrhoids-offer-graph {
         padding: 3% 3% 6% 3%;
         text-align: center;
         border-radius: 0 0 10px 10px;
     }
 
-    .lp-hemorrhoids-offer-graph h3{
+    .lp-hemorrhoids-offer-graph h3 {
         font-size: min(5vmin, 30px);
         font-weight: bold;
         margin-bottom: 10px;
@@ -1205,18 +1186,17 @@
         font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
     }
 
-    .lp-hemorrhoids-offer-graph h3 span{
+    .lp-hemorrhoids-offer-graph h3 span {
         font-size: min(8vmin, 50px);
         font-weight: bold;
     }
 
-
-    .lp-hemorrhoids-offer-graph img{
+    .lp-hemorrhoids-offer-graph img {
         width: 100%;
         margin-bottom: 20px;
     }
 
-    .lp-hemorrhoids-offer-graph p{
+    .lp-hemorrhoids-offer-graph p {
         background-color: #d52161;
         color: #fff;
         font-size: min(4vmin, 40px);
@@ -1225,7 +1205,7 @@
         padding: 4% 2%;
     }
 
-    .lp-hemorrhoids-offer-inner-text-box{
+    .lp-hemorrhoids-offer-inner-text-box {
         position: absolute;
         width: 100%;
         left: 0;
@@ -1233,16 +1213,15 @@
 
     /* about------------------------------------------- */
 
-    .lp-hemorrhoids-about{
+    .lp-hemorrhoids-about {
         background-color: #fff9d7;
     }
 
-
-    .lp-hemorrhoids-about-title{
+    .lp-hemorrhoids-about-title {
         position: relative;
     }
 
-    .lp-hemorrhoids-about-title-inner h2{
+    .lp-hemorrhoids-about-title-inner h2 {
         position: absolute;
         top: 3%;
         width: 100%;
@@ -1251,17 +1230,17 @@
         line-height: 1.3;
     }
 
-    .lp-hemorrhoids-about-title-inner h2 span{
+    .lp-hemorrhoids-about-title-inner h2 span {
         font-size: min(6.4vmin, 40px);
     }
 
-    .lp-hemorrhoids-about-title{
+    .lp-hemorrhoids-about-title {
         color: #fff;
         margin: auto;
         text-align: center;
     }
 
-    .lp-hemorrhoids-about-point-box{
+    .lp-hemorrhoids-about-point-box {
         display: flex;
         position: absolute;
         top: 90%;
@@ -1276,44 +1255,44 @@
         width: 100%;
     }
 
-    .lp-hemorrhoids-about-explanation{
+    .lp-hemorrhoids-about-explanation {
         background-color: #fff;
         border-radius: 20px;
         margin: 3vw;
         padding: 5.5vw 5vw;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     }
 
-    .lp-hemorrhoids-about-explanation h3{
+    .lp-hemorrhoids-about-explanation h3 {
         text-align: center;
         font-weight: bold;
         font-size: min(4.5vmin, 42px);
         padding: 14px 0;
     }
 
-    .lp-hemorrhoids-about-explanation h3 span{
+    .lp-hemorrhoids-about-explanation h3 span {
         color: #fd5151;
     }
 
-    .lp-hemorrhoids-about-explanation p{
+    .lp-hemorrhoids-about-explanation p {
         font-size: min(3.8vmin, 24px);
         line-height: 2;
         margin-bottom: 20px;
     }
 
-    .lp-hemorrhoids-about-explanation p span{
+    .lp-hemorrhoids-about-explanation p span {
         color: #fd5151;
         font-weight: bold;
     }
 
-    .lp-hemorrhoids-about-explanation img{
+    .lp-hemorrhoids-about-explanation img {
         display: block;
         text-align: center;
         margin: auto;
         width: 80%;
     }
 
-    .lp-hemorrhoids-about-conclusion-end p{
+    .lp-hemorrhoids-about-conclusion-end p {
         text-align: center;
         font-size: min(7vmin, 40px);
         line-height: 1.5;
@@ -1321,98 +1300,92 @@
         padding-top: 5%;
     }
 
-    .lp-hemorrhoids-about-conclusion-end p span{
+    .lp-hemorrhoids-about-conclusion-end p span {
         font-size: min(8vmin, 80px);
         color: #fd5151;
     }
 
-    .lp-hemorrhoids-about-conclusion{
+    .lp-hemorrhoids-about-conclusion {
         position: absolute;
         top: 0;
         width: 100%;
     }
 
-    .lp-hemorrhoids-about-conclusion h2{
+    .lp-hemorrhoids-about-conclusion h2 {
         font-size: min(4vmin, 40px);
         text-align: center;
     }
 
     /* efficac----------------------------------------- */
 
-    .lp-hemorrhoids-efficacy{
+    .lp-hemorrhoids-efficacy {
         background-image: url(../img/efficacy-bg.png);
         background-size: cover;
         background-position: center;
     }
 
-    .lp-hemorrhoids-efficacy-inner-item{
+    .lp-hemorrhoids-efficacy-inner-item {
         padding: 15vw 5vw 3vw 5vw;
     }
 
-    .lp-hemorrhoids-efficacy-inner-title{
+    .lp-hemorrhoids-efficacy-inner-title {
         text-align: center;
     }
 
-    .lp-hemorrhoids-efficacy-inner-item img{
+    .lp-hemorrhoids-efficacy-inner-item img {
         width: 50%;
-        padding:2%;
+        padding: 2%;
         height: 100%;
     }
 
-    .lp-hemorrhoids-efficacy-explanation p{
+    .lp-hemorrhoids-efficacy-explanation p {
         font-size: min(3.8vmin, 24px);
         line-height: 2;
         margin-bottom: 20px;
         text-align: left;
     }
 
-    .lp-hemorrhoids-efficacy-explanation p span{
+    .lp-hemorrhoids-efficacy-explanation p span {
         font-weight: bold;
         color: #fd5151;
     }
 
     /* method----------------------------------------- */
 
-
-    .lp-hemorrhoids-method{
+    .lp-hemorrhoids-method {
         background-color: #fff3f7;
         display: block;
     }
 
-    .lp-hemorrhoids-method-img{
+    .lp-hemorrhoids-method-img {
         width: 100%;
-
     }
 
-    .lp-hemorrhoids-method-text{
+    .lp-hemorrhoids-method-text {
         width: 100%;
         padding: 3%;
         text-align: center;
     }
 
-    .lp-hemorrhoids-method-text h2 img{
+    .lp-hemorrhoids-method-text h2 img {
         margin: auto;
         margin-bottom: 20px;
     }
 
-    .lp-hemorrhoids-method-text p{
+    .lp-hemorrhoids-method-text p {
         font-size: min(3vmin, 18px);
         line-height: 1.2;
         margin-top: 40px;
     }
 
-
     /* line--------------------------------------- */
 
-    .lp-hemorrhoids-line{
+    .lp-hemorrhoids-line {
         width: 100%;
         position: relative;
         padding: 16% 0 0 0;
     }
-    .lp-hemorrhoids-line h2{
-        display: block;
-        text-align: center;
-        background: linear-gradient(to bottom, #16be58, #26ab5b);
+    .lp-hemorrhoids-line h2 {
         border-radius: 5px;
         padding: 4% 2%;
         color: #fff;
@@ -1425,54 +1398,53 @@
         transform: translateX(-50%);
         width: 90%;
         line-height: 1.8;
-        box-shadow: 0px 6px 2px #c2e0d6;
     }
 
-    .lp-hemorrhoids-line-box{
+    .lp-hemorrhoids-line-box {
         background-color: #fff;
         border-radius: 10px;
         padding: 25vw 3vw 3vw 3vw;
     }
-    .lp-hemorrhoids-line-text{
+    .lp-hemorrhoids-line-text {
         text-align: center;
     }
-    .lp-hemorrhoids-line-title{
+    .lp-hemorrhoids-line-title {
         font-size: min(4vmin, 30px);
-        font-family:'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
+        font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
         line-height: 1.5;
         color: #333;
         font-weight: bold;
         margin-bottom: 15px;
     }
-    .lp-hemorrhoids-line-title span{
+    .lp-hemorrhoids-line-title span {
         font-size: min(7vmin, 60px);
     }
-    .lp-hemorrhoids-line-explanatory{
+    .lp-hemorrhoids-line-explanatory {
         text-align: center;
         font-size: min(3.8vmin, 24px);
         line-height: 2;
         margin-bottom: 20px;
     }
-    .lp-hemorrhoids-line-explanatory span{
+    .lp-hemorrhoids-line-explanatory span {
         color: #e23636;
-        font-size: min(2.4vmin,24px);
+        font-size: min(2.4vmin, 24px);
     }
 
-    .lp-hemorrhoids-line-cta{
+    .lp-hemorrhoids-line-cta {
         text-align: center;
         margin-top: 5%;
     }
-    .lp-hemorrhoids-line_cta img{
+    .lp-hemorrhoids-line_cta img {
         width: 80%;
     }
 
     /* faq-------------------------------------- */
 
-    .lp-hemorrhoids-faq{
+    .lp-hemorrhoids-faq {
         padding: 3vw;
     }
 
-    .lp-hemorrhoids-faq h2{
+    .lp-hemorrhoids-faq h2 {
         font-size: min(8vmin, 40px);
         text-align: center;
     }
@@ -1506,7 +1478,7 @@
 
     .lp-hemorrhoids-faq-item summary::before {
         color: #75bbff;
-        content: "Q";
+        content: 'Q';
     }
 
     .lp-hemorrhoids-faq-item summary::after {
@@ -1517,7 +1489,7 @@
         border-bottom: 3px solid #333333b3;
         border-right: 3px solid #333333b3;
         content: '';
-        transition: transform .5s;
+        transition: transform 0.5s;
     }
 
     .lp-hemorrhoids-faq-item[open] summary::after {
@@ -1531,7 +1503,7 @@
         margin: 0;
         padding: 2% 0 5% 10%;
         color: #333;
-        transition: transform .5s, opacity .5s;
+        transition: transform 0.5s, opacity 0.5s;
     }
 
     .lp-hemorrhoids-faq-item[open] p {
@@ -1542,7 +1514,6 @@
     .lp-hemorrhoids-faq-item p::before {
         color: #ff8d8d;
         line-height: 1.2;
-        content: "A";
+        content: 'A';
     }
-
 }
