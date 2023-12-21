@@ -1,0 +1,1149 @@
+.lp-boufutusyousan {
+    color: #333;
+    line-height: 2.2;
+    letter-spacing: 1px;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
+}
+
+/* display none------------------------- */
+
+.lp-boufutusyousan-responsive-pc {
+    display: block;
+}
+
+.lp-boufutusyousan-responsive-sp {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .lp-boufutusyousan-responsive-pc {
+        display: none;
+    }
+
+    .lp-boufutusyousan-responsive-sp {
+        display: block;
+    }
+}
+
+/* btn animation------------------------- */
+
+.lp-boufutusyousan-fv-cta img {
+    animation: anime1 0.6s ease 0s infinite alternate;
+    transform-origin: center;
+}
+
+.lp-boufutusyousan-offer-cta img {
+    animation: anime2 0.6s ease 0s infinite alternate;
+    transform-origin: center;
+}
+
+.lp-boufutusyousan-line-cta img {
+    animation: anime3 0.6s ease 0s infinite alternate;
+    transform-origin: center;
+}
+@keyframes anime1 {
+    from {
+        transform: scale(0.9, 0.9);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes anime2 {
+    from {
+        transform: scale(0.9, 0.9);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes anime3 {
+    from {
+        transform: scale(0.9, 0.9);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
+/* header------------------------- */
+
+.lp-boufutusyousan-header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.lp-boufutusyousan-header img {
+    width: 240px;
+}
+
+/* fv----------------------------- */
+
+.lp-boufutusyousan-fv {
+    background-size: cover;
+    position: relative;
+}
+
+.lp-boufutusyousan-fv-cta {
+    position: absolute;
+    right: 3%;
+    bottom: 21%;
+    width: 58%;
+}
+
+.lp-boufutusyousan-fv-cta img {
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+/* trouble-------------------------------- */
+
+.lp-boufutusyousan-trouble {
+    background: url(../img/trouble-bg.png);
+    background-size: cover;
+    padding: 8% 3% 3% 3%;
+    margin-top: -5%;
+    background-position: bottom;
+}
+
+.lp-boufutusyousan-trouble h2 {
+    display: block;
+    width: 100%;
+    margin: 30px auto 40px auto;
+    text-align: center;
+}
+
+.lp-boufutusyousan-trouble h2 img {
+    width: 70%;
+    margin: auto;
+}
+
+.lp-boufutusyousan-trouble-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.lp-boufutusyousan-trouble-box-1,
+.lp-boufutusyousan-trouble-box-2,
+.lp-boufutusyousan-trouble-box-3 {
+    width: 33%;
+    padding: 4px;
+}
+
+.lp-boufutusyousan-trouble-box-1 img,
+.lp-boufutusyousan-trouble-box-2 img,
+.lp-boufutusyousan-trouble-box-3 img {
+    width: 100%;
+    height: auto;
+}
+
+.lp-boufutusyousan-trouble-box-2 img {
+    padding-top: 40px;
+}
+
+/* resolution--------------------------------------- */
+
+.lp-boufutusyousan-resolution img {
+    width: 100%;
+    height: 100%;
+}
+
+/* offer------------------------------------------ */
+
+.lp-boufutusyousan-offer {
+    background: url(../img/offer-bg.png);
+    background-size: cover;
+}
+
+.lp-boufutusyousan-offer h2 {
+    background: linear-gradient(180deg, rgb(114, 71, 36), rgb(193 139 95));
+    color: #fff;
+    padding: 3% 0 2% 0;
+    margin: auto;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: min(6vmin, 50px);
+    font-weight: bold;
+    font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+    line-height: 2;
+}
+
+.lp-boufutusyousan-offer-bg {
+    background-color: #fff;
+    box-shadow: 0px 14px 15px -4px rgb(118 118 118 / 50%);
+    border-radius: 20px;
+}
+
+.offer-message {
+    font-size: min(4vmin, 50px);
+    font-weight: bold;
+    display: block;
+    border-bottom: 2px solid #444;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.lp-boufutusyousan-offer-box {
+    background-color: #fff;
+    border-radius: 0;
+    padding: 3vw;
+}
+
+.lp-boufutusyousan-offer-inner {
+    padding: 3vw;
+}
+
+.lp-boufutusyousan-offer-inner-text-point p {
+    border: 2px solid #fd5151;
+    color: #fd5151;
+    padding: 2%;
+    border-radius: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: min(3.5vmin, 30px);
+    margin-top: 10px;
+    line-height: 1;
+}
+
+.lp-boufutusyousan-offer-inner-text-point span {
+    display: block;
+    text-align: right;
+}
+
+.lp-boufutusyousan-offer-cta {
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.lp-boufutusyousan-offer a {
+    text-decoration: none;
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+}
+
+.lp-boufutusyousan-offer a img {
+    height: auto;
+    border: none;
+    margin: auto;
+    width: 90%;
+}
+
+.lp-boufutusyousan-offer a:hover img {
+    opacity: 0.8;
+}
+
+.lp-boufutusyousan-offer-benefits h3 {
+    background-color: #744926;
+    text-align: center;
+    color: #fff;
+    padding: 2% 0;
+    font-weight: bold;
+    font-size: min(3vmin, 25px);
+    line-height: 1.8;
+}
+
+.lp-boufutusyousan-offer-benefits h3 span {
+    font-size: min(5vmin, 34px);
+}
+
+.lp-boufutusyousan-offer-benefits-box {
+    background-color: #fff8da;
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
+}
+
+.lp-boufutusyousan-offer-benefits-item {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+}
+
+.lp-boufutusyousan-offer-benefits-no {
+    background-color: #fd5151;
+    color: #fff;
+    font-size: min(2.4vmin, 24px);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 30px;
+    padding: 5% 3%;
+    line-height: 1;
+}
+
+.lp-boufutusyousan-offer-benefits-text {
+    font-size: min(7.05vmin, 18px);
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lp-boufutusyousan-offer-benefits-main-text {
+    font-size: min(3vmin, 30px);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    color: #fd5151;
+    line-height: 1.2;
+}
+
+.lp-boufutusyousan-offer-benefits-free {
+    background-color: #f8ffc7;
+    color: #fd5151;
+    padding: 0 2%;
+    font-size: min(2vmin, 18px);
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #fd5151;
+    border-radius: 5px;
+}
+
+.lp-boufutusyousan-offer-graph {
+    padding: 3vw 3vw 0 3vw;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.lp-boufutusyousan-offer-graph h3 {
+    font-size: min(3vmin, 30px);
+    font-weight: bold;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+}
+
+.lp-boufutusyousan-offer-graph h3 span {
+    font-size: min(8vmin, 80px);
+    font-weight: bold;
+}
+
+.lp-boufutusyousan-offer-graph img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.lp-boufutusyousan-offer-graph p {
+    background-color: #d52161;
+    color: #fff;
+    font-size: min(4vmin, 40px);
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
+
+.lp-boufutusyousan-offer-cta {
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    padding: 3vw 3vw 0 3vw;
+    border-radius: 0;
+}
+
+.lp-boufutusyousan-offer-cta-bottom {
+    padding-bottom: 4vw;
+    border-radius: 0 0 20px 20px;
+}
+
+.lp-boufutusyousan-offer-inner-bottom {
+    padding-bottom: 15vh;
+}
+
+/* about------------------------------------------- */
+
+.lp-boufutusyousan-about {
+    position: relative;
+}
+
+.lp-boufutusyousan-about-title-bg {
+    background-color: #ffd48c;
+}
+
+.lp-boufutusyousan-about-title-inner h2 {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 45%;
+}
+
+.lp-boufutusyousan-about-title-inner h2 img {
+    width: 100%;
+    margin: auto;
+}
+
+.lp-boufutusyousan-about-combustion {
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    width: 40%;
+}
+
+.lp-boufutusyousan-about-combustion img {
+    width: 100%;
+    height: auto;
+}
+
+.lp-boufutusyousan-about-discharge {
+    position: absolute;
+    top: 20%;
+    right: 4%;
+    width: 40%;
+}
+
+.lp-boufutusyousan-about-discharge img {
+    width: 100%;
+    height: auto;
+}
+
+.lp-boufutusyousan-about-message {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 63%;
+}
+
+.lp-boufutusyousan-about-message img {
+    width: 100%;
+}
+
+.lp-boufutusyousan-about-explanation {
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 4% 3vw 2vw 3vw;
+    padding: 5vw 3vw 3vw 3vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    width: 40%;
+}
+
+.lp-boufutusyousan-about-explanation h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: min(4.2vmin, 42px);
+}
+
+.lp-boufutusyousan-about-explanation h3 span {
+    color: #fd5151;
+}
+
+.lp-boufutusyousan-about-explanation p {
+    font-size: min(2.8vmin, 24px);
+    line-height: 2.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lp-boufutusyousan-about-explanation p span {
+    color: #fd5151;
+    font-weight: bold;
+}
+
+.lp-boufutusyousan-about-explanation img {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.lp-boufutusyousan-about-conclusion-end p {
+    text-align: center;
+    font-size: min(4vmin, 40px);
+    line-height: 1.5;
+    font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+}
+
+.lp-boufutusyousan-about-conclusion-end p span {
+    font-size: min(8vmin, 80px);
+    color: #fd5151;
+}
+
+.lp-boufutusyousan-about-conclusion {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.lp-boufutusyousan-about-conclusion h2 {
+    font-size: min(4vmin, 40px);
+    text-align: center;
+}
+
+/* effect-----------------------------------------  */
+
+.lp-boufutusyousan-effect {
+    margin-top: -33%;
+}
+
+/* line--------------------------------------- */
+
+.lp-boufutusyousan-line {
+    width: 100%;
+    position: relative;
+    padding: 8% 0 0 0;
+}
+.lp-boufutusyousan-line h2 {
+    display: block;
+    text-align: center;
+    background: linear-gradient(to bottom, #0bbafb, #4285ec);
+    border-radius: 5px;
+    padding: 2%;
+    color: #fff;
+    font-size: min(3vmin, 30px);
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    line-height: 1.8;
+    box-shadow: 0px 6px 2px #c2cbe0;
+    font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
+}
+
+.lp-boufutusyousan-line-box {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 12% 3vw 3vw 3vw;
+    box-shadow: 0px 14px 15px -4px rgb(118 118 118 / 50%);
+}
+.lp-boufutusyousan-line-text {
+    text-align: center;
+}
+.lp-boufutusyousan-line-title {
+    font-size: min(3vmin, 30px);
+    line-height: 1.2;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.lp-boufutusyousan-line-title span {
+    font-size: min(6vmin, 60px);
+    color: #2548a9;
+}
+.lp-boufutusyousan-line-explanatory {
+    text-align: center;
+    font-size: min(2.4vmin, 24px);
+}
+.lp-boufutusyousan-line-explanatory span {
+    color: #e23636;
+    font-size: min(2.4vmin, 24px);
+}
+
+.lp-boufutusyousan-line-cta {
+    text-align: center;
+    margin-top: 5%;
+}
+.lp-boufutusyousan-line_cta img {
+    width: 80%;
+}
+
+/* faq-------------------------------------- */
+
+.lp-boufutusyousan-faq {
+    padding: 3vw;
+}
+
+.lp-boufutusyousan-faq h2 {
+    font-size: min(4vmin, 40px);
+    text-align: center;
+}
+
+.lp-boufutusyousan-faq-item {
+    max-width: 100%;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #d6dde3;
+}
+
+.lp-boufutusyousan-faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em 1em 3em;
+    color: #333333;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 2% 0 2% 10%;
+    font-size: min(2.6vmin, 26px);
+}
+
+.lp-boufutusyousan-faq-item summary::before,
+.lp-boufutusyousan-faq-item p::before {
+    position: absolute;
+    left: 2%;
+    font-weight: 600;
+    font-size: min(4.8vmin, 48px);
+}
+
+.lp-boufutusyousan-faq-item summary::before {
+    color: #75bbff;
+    content: 'Q';
+}
+
+.lp-boufutusyousan-faq-item summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    border-bottom: 3px solid #333333b3;
+    border-right: 3px solid #333333b3;
+    content: '';
+    transition: transform 0.5s;
+}
+
+.lp-boufutusyousan-faq-item[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.lp-boufutusyousan-faq-item p {
+    position: relative;
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: 2% 0 5% 10%;
+    color: #333;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.lp-boufutusyousan-faq-item[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+.lp-boufutusyousan-faq-item p::before {
+    color: #ff8d8d;
+    line-height: 1.2;
+    content: 'A';
+}
+
+@media screen and (max-width: 768px) {
+    /* header------------------------- */
+
+    .lp-boufutusyousan-header {
+        background-color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .lp-boufutusyousan-header img {
+        width: 200px;
+    }
+
+    /* fv----------------------------- */
+
+    .lp-boufutusyousan-fv {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lp-boufutusyousan-fv-cta {
+        position: absolute;
+        right: 0;
+        bottom: 18%;
+        width: 98%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    }
+
+    .lp-boufutusyousan-fv-cta img {
+        position: absolute;
+        right: 0;
+    }
+
+    /* trouble-bor------------------------------------------ */
+
+    .lp-boufutusyousan-trouble {
+        padding: 15% 3% 3% 3%;
+        margin-top: -14%;
+    }
+
+    .lp-boufutusyousan-trouble-box {
+    }
+
+    .lp-boufutusyousan-trouble h2 img {
+        width: 90%;
+    }
+
+    .lp-boufutusyousan-trouble-box-2 img {
+        padding-top: 0;
+    }
+
+    .lp-boufutusyousan-trouble-box {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lp-boufutusyousan-trouble-box-1,
+    .lp-boufutusyousan-trouble-box-2,
+    .lp-boufutusyousan-trouble-box-3 {
+        width: 100%;
+        padding: 4px;
+    }
+
+    /* offer------------------------------------------ */
+
+    .lp-boufutusyousan-offer-box {
+        border-radius: 0;
+        position: relative;
+        padding: 5vw 3vw;
+    }
+
+    .lp-boufutusyousan-offer h2 {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: min(5.2vmin, 40px);
+        padding: 5% 0 3% 0;
+    }
+
+    .lp-boufutusyousan-offer-annotation-box {
+        background-color: #fff;
+        padding: 1vw 3vw 3vw 3vw;
+        margin-top: -2%;
+    }
+
+    .lp-boufutusyousan-offer-annotation-box li {
+        font-size: min(3vmin, 14px);
+        line-height: 1.8;
+    }
+
+    .lp-boufutusyousan-offer-inner-box {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        display: block;
+    }
+
+    .lp-boufutusyousan-offer-inner img {
+        width: 30%;
+        height: 100%;
+    }
+
+    .lp-boufutusyousan-offer-inner-text img {
+        width: 100%;
+        height: auto;
+    }
+
+    .lp-boufutusyousan-offer-inner-text h3 {
+        font-weight: bold;
+        font-size: min(5vmin, 34px);
+        margin-bottom: 10px;
+        position: absolute;
+        top: 6%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        text-align: center;
+    }
+
+    .lp-boufutusyousan-offer-inner-text-point p {
+        border: 2px solid #fd5151;
+        color: #fd5151;
+        padding: 4% 0;
+        border-radius: 100px;
+        text-align: center;
+        font-weight: bold;
+        font-size: min(3.5vmin, 20px);
+        margin-top: 10px;
+        line-height: 1;
+    }
+
+    .lp-boufutusyousan-offer-inner-text-point span {
+        display: block;
+        text-align: right;
+    }
+
+    .lp-boufutusyousan-offer-cta {
+        margin: auto;
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 0 3vw;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .lp-boufutusyousan-offer-cta {
+        margin: auto;
+        display: block;
+        text-align: center;
+        background-color: #fff;
+        padding: 3vw 0vw 0 0vw;
+    }
+
+    .lp-boufutusyousan-offer a {
+        text-decoration: none;
+        border: none;
+        background: none;
+        outline: none;
+        text-align: center;
+    }
+
+    .lp-boufutusyousan-offer a img {
+        height: auto;
+        border: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    .lp-boufutusyousan-offer a:hover img {
+        opacity: 0.8;
+    }
+
+    .lp-boufutusyousan-offer-benefits h3 {
+        padding: 3% 0;
+        font-weight: bold;
+        font-size: min(3.8vmin, 18px);
+        line-height: 1.5;
+        letter-spacing: 2px;
+    }
+
+    .lp-boufutusyousan-offer-benefits h3 span {
+        font-size: min(5vmin, 28px);
+    }
+
+    .lp-boufutusyousan-offer-benefits-box {
+        background-color: #fff8da;
+        display: block;
+        padding: 3%;
+        justify-content: space-around;
+        margin-bottom: 0px;
+    }
+
+    .lp-boufutusyousan-offer-benefits-item {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 5% 6% 1% 6%;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 3vw;
+        box-shadow: 0 0 6px #dddddd;
+    }
+
+    .lp-boufutusyousan-offer-benefits-no {
+        background-color: #fd5151;
+        color: #fff;
+        font-size: min(5.4vmin, 24px);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+        display: block;
+        border-radius: 30px;
+        padding: 3%;
+        line-height: 1;
+    }
+
+    .lp-boufutusyousan-offer-benefits-text {
+        font-size: min(6.05vmin, 16px);
+        display: block;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+
+    .lp-boufutusyousan-offer-benefits-main-text {
+        font-size: min(8vmin, 24px);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        color: #fd5151;
+        line-height: 1.2;
+    }
+
+    .lp-boufutusyousan-offer-benefits-free {
+        padding: 0 2%;
+        font-size: min(3.5vmin, 22px);
+        font-weight: bold;
+        text-align: center;
+        border-radius: 0;
+        width: 80%;
+        margin: 20px auto 0px auto;
+    }
+
+    .lp-boufutusyousan-offer-graph {
+        padding: 6% 3%;
+        text-align: center;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .lp-boufutusyousan-offer-graph h3 {
+        font-size: min(5vmin, 30px);
+        font-weight: bold;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        font-family: 'Hiragino Mincho ProN', 'Yu Mincho', 'MS PMincho', 'MS Mincho', serif;
+    }
+
+    .lp-boufutusyousan-offer-graph h3 span {
+        font-size: min(8vmin, 50px);
+        font-weight: bold;
+    }
+
+    .lp-boufutusyousan-offer-graph img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .lp-boufutusyousan-offer-graph p {
+        background-color: #d52161;
+        color: #fff;
+        font-size: min(4vmin, 40px);
+        font-weight: bold;
+        text-align: center;
+        padding: 4% 2%;
+    }
+
+    .lp-boufutusyousan-offer-inner-text-box {
+        width: 100%;
+        left: 0;
+        padding: 10px;
+    }
+
+    .lp-boufutusyousan-offer-cta-bottom {
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+
+    .lp-boufutusyousan-offer-inner-bottom {
+        padding-bottom: 15vh;
+    }
+
+    /* about------------------------------------------- */
+
+    .lp-boufutusyousan-about-title-inner h2 {
+        width: 70%;
+        top: 0;
+    }
+
+    .lp-boufutusyousan-about-title {
+        color: #fff;
+        margin: auto;
+        text-align: center;
+    }
+
+    .lp-boufutusyousan-about-explanation {
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 3vw;
+        padding: 5.5vw 5vw;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .lp-boufutusyousan-about-message {
+        top: 69%;
+        width: 92%;
+    }
+
+    /* method----------------------------------------- */
+
+    .lp-boufutusyousan-method {
+        background-color: #fff3f7;
+        display: block;
+    }
+
+    .lp-boufutusyousan-method-img {
+        width: 100%;
+    }
+
+    .lp-boufutusyousan-method-text {
+        width: 100%;
+        padding: 3%;
+        text-align: center;
+    }
+
+    .lp-boufutusyousan-method-text h2 img {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .lp-boufutusyousan-method-text p {
+        font-size: min(3vmin, 18px);
+        line-height: 1.2;
+        margin-top: 40px;
+    }
+
+    .lp-boufutusyousan-effect {
+        margin-top: -13%;
+    }
+
+    .lp-boufutusyousan-about-combustion {
+        position: absolute;
+        top: 10%;
+        left: 2%;
+        width: 44%;
+    }
+
+    .lp-boufutusyousan-about-discharge {
+        position: absolute;
+        top: 24%;
+        right: 2%;
+        width: 44%;
+    }
+
+    /* line--------------------------------------- */
+
+    .lp-boufutusyousan-line {
+        width: 100%;
+        position: relative;
+        padding: 16% 0 0 0;
+    }
+    .lp-boufutusyousan-line h2 {
+        border-radius: 5px;
+        padding: 4% 2%;
+        color: #fff;
+        font-size: min(5vmin, 30px);
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        line-height: 1.8;
+    }
+
+    .lp-boufutusyousan-line-box {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 25vw 3vw 3vw 3vw;
+    }
+    .lp-boufutusyousan-line-text {
+        text-align: center;
+    }
+    .lp-boufutusyousan-line-title {
+        font-size: min(4vmin, 30px);
+        font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'MS PGothic', sans-serif;
+        line-height: 1.5;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .lp-boufutusyousan-line-title span {
+        font-size: min(7vmin, 60px);
+    }
+    .lp-boufutusyousan-line-explanatory {
+        text-align: center;
+        font-size: min(3.8vmin, 24px);
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+    .lp-boufutusyousan-line-explanatory span {
+        color: #e23636;
+        font-size: min(2.4vmin, 24px);
+    }
+
+    .lp-boufutusyousan-line-cta {
+        text-align: center;
+        margin-top: 5%;
+    }
+    .lp-boufutusyousan-line_cta img {
+        width: 80%;
+    }
+
+    /* faq-------------------------------------- */
+
+    .lp-boufutusyousan-faq {
+        padding: 3vw;
+    }
+
+    .lp-boufutusyousan-faq h2 {
+        font-size: min(8vmin, 40px);
+        text-align: center;
+    }
+
+    .lp-boufutusyousan-faq-item {
+        max-width: 100%;
+        margin-bottom: 5px;
+        border-bottom: 2px solid #d6dde3;
+    }
+
+    .lp-boufutusyousan-faq-item summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        padding: 1em 2em 1em 3em;
+        color: #333333;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 2% 0 2% 10%;
+        font-size: min(4vmin, 26px);
+    }
+
+    .lp-boufutusyousan-faq-item summary::before,
+    .lp-boufutusyousan-faq-item p::before {
+        position: absolute;
+        left: 2%;
+        font-weight: 600;
+        font-size: min(4.8vmin, 48px);
+    }
+
+    .lp-boufutusyousan-faq-item summary::before {
+        color: #75bbff;
+        content: 'Q';
+    }
+
+    .lp-boufutusyousan-faq-item summary::after {
+        transform: translateY(-25%) rotate(45deg);
+        width: 7px;
+        height: 7px;
+        margin-left: 10px;
+        border-bottom: 3px solid #333333b3;
+        border-right: 3px solid #333333b3;
+        content: '';
+        transition: transform 0.5s;
+    }
+
+    .lp-boufutusyousan-faq-item[open] summary::after {
+        transform: rotate(225deg);
+    }
+
+    .lp-boufutusyousan-faq-item p {
+        position: relative;
+        transform: translateY(-10px);
+        opacity: 0;
+        margin: 0;
+        padding: 2% 0 5% 10%;
+        color: #333;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .lp-boufutusyousan-faq-item[open] p {
+        transform: none;
+        opacity: 1;
+    }
+
+    .lp-boufutusyousan-faq-item p::before {
+        color: #ff8d8d;
+        line-height: 1.2;
+        content: 'A';
+    }
+}
