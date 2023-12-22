@@ -316,10 +316,9 @@
 }
 
 .lp-boufutusyousan-offer-graph {
-    padding: 3vw 3vw 0 3vw;
+    padding: 0;
     text-align: center;
-    background-color: #fff;
-    border-radius: 0 0 20px 20px;
+    background-color: #ffffff;
 }
 
 .lp-boufutusyousan-offer-graph h3 {
@@ -337,7 +336,7 @@
 
 .lp-boufutusyousan-offer-graph img {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 0;
 }
 
 .lp-boufutusyousan-offer-graph p {
@@ -361,6 +360,8 @@
 .lp-boufutusyousan-offer-cta-bottom {
     padding-bottom: 4vw;
     border-radius: 0 0 20px 20px;
+    background-color: #fbf9f1;
+    margin-top: -1px;
 }
 
 .lp-boufutusyousan-offer-inner-bottom {
@@ -888,12 +889,6 @@
         margin: 20px auto 0px auto;
     }
 
-    .lp-boufutusyousan-offer-graph {
-        padding: 6% 3%;
-        text-align: center;
-        border-radius: 0 0 10px 10px;
-    }
-
     .lp-boufutusyousan-offer-graph h3 {
         font-size: min(5vmin, 30px);
         font-weight: bold;
@@ -909,7 +904,6 @@
 
     .lp-boufutusyousan-offer-graph img {
         width: 100%;
-        margin-bottom: 20px;
     }
 
     .lp-boufutusyousan-offer-graph p {
@@ -930,6 +924,7 @@
     .lp-boufutusyousan-offer-cta-bottom {
         padding-bottom: 30px;
         padding-top: 10px;
+        background-color: #fbf9f3;
     }
 
     .lp-boufutusyousan-offer-inner-bottom {
