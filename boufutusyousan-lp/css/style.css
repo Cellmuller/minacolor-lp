@@ -640,26 +640,29 @@
     content: 'A';
 }
 
-#lp-boufutusyousan-floating {
+.floating-button {
     position: fixed;
     bottom: 0;
-    padding: 20px;
+    padding: 16px 10px 20px 10px;
     text-align: center;
     background-color: #fff;
+    box-shadow: 0 0 8px gray;
+    left: 0;
+    right: 0;
     display: none;
 }
 .lp-boufutusyousan-floating-text {
-    width: 75%;
+    width: 65%;
 }
 
-#lp-boufutusyousan-floating a {
+.floating-button a {
     width: 94%;
     display: block;
     margin: auto;
     margin-top: 14px;
 }
 
-#lp-boufutusyousan-floating a img {
+.floating-button a img {
     width: 100%;
 }
 
@@ -1163,31 +1166,5 @@
         color: #ff8d8d;
         line-height: 1.2;
         content: 'A';
-    }
-}
-
-@media screen and (max-width: 640px) {
-    #lp-boufutusyousan-floating {
-        display: none;
-    }
-
-    .lp-boufutusyousan-floating-active {
-        display: block !important;
-        animation-name: fadeUpAnime;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-        opacity: 0;
-    }
-
-    @keyframes fadeUpAnime {
-        from {
-            opacity: 0;
-            transform: translateY(100px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
     }
 }
