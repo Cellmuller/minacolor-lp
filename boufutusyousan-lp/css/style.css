@@ -640,6 +640,29 @@
     content: 'A';
 }
 
+#lp-boufutusyousan-floating {
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    display: none;
+}
+.lp-boufutusyousan-floating-text {
+    width: 75%;
+}
+
+#lp-boufutusyousan-floating a {
+    width: 94%;
+    display: block;
+    margin: auto;
+    margin-top: 14px;
+}
+
+#lp-boufutusyousan-floating a img {
+    width: 100%;
+}
+
 @media screen and (max-width: 768px) {
     /* header------------------------- */
 
@@ -1140,5 +1163,31 @@
         color: #ff8d8d;
         line-height: 1.2;
         content: 'A';
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #lp-boufutusyousan-floating {
+        display: none;
+    }
+
+    .lp-boufutusyousan-floating-active {
+        display: block !important;
+        animation-name: fadeUpAnime;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    @keyframes fadeUpAnime {
+        from {
+            opacity: 0;
+            transform: translateY(100px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 }
