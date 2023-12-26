@@ -667,6 +667,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .lp-boufutusyousan {
+        padding-bottom: 40%;
+    }
+
     /* header------------------------- */
 
     .lp-boufutusyousan-header {
