@@ -1,37 +1,29 @@
-// document.addEventListener('scroll', function () {
-//     if (window.matchMedia('(max-width: 768px)').matches) {
-//         var startElement = document.getElementById('start');
-//         var endElement = document.getElementById('end');
-//         var button = document.querySelector('.floating-button');
-//
-//         var startElementTop = startElement.getBoundingClientRect().top;
-//         var endElementTop = endElement.getBoundingClientRect().top;
-//
-//         if (startElementTop < window.innerHeight && endElementTop > 0) {
-//             button.style.display = 'block';
-//         } else {
-//             button.style.display = 'none';
-//         }
-//     } else {
-//         var button = document.querySelector('.floating-button');
-//         button.style.display = 'none';
-//     }
-// });
+document.addEventListener('DOMContentLoaded', function () {
+    var startElement = document.getElementById('start');
+    var footerElement = document.querySelector('footer');
+    var floatingButton = document.querySelector('.floating-button');
 
-document.addEventListener('scroll', function () {
-    if (window.matchMedia('(max-width: 768px)').matches) {
-        var startElement = document.getElementById('start');
-        var button = document.querySelector('.floating-button');
+    function checkPosition() {
+        if (window.matchMedia('(max-width: 768px)').matches) {
+            var startElementPosition = startElement.getBoundingClientRect().bottom;
+            var footerElementPosition = footerElement.getBoundingClientRect().top;
 
-        var startElementTop = startElement.getBoundingClientRect().top;
-
-        if (startElementTop < window.innerHeight) {
-            button.style.display = 'block';
+            if (startElementPosition < 0 && footerElementPosition > window.innerHeight) {
+                floatingButton.style.display = 'block'; // フローティングボタンを表示
+            } else {
+                floatingButton.style.display = 'none'; // フローティングボタンを非表示
+            }
         } else {
-            button.style.display = 'none';
+            floatingButton.style.display = 'none'; // 768px以上では非表示
         }
-    } else {
-        var button = document.querySelector('.floating-button');
-        button.style.display = 'none';
     }
+
+    // スクロールイベントリスナーを設定
+    window.addEventListener('scroll', checkPosition);
+
+    // ウィンドウリサイズ時にもチェック
+    window.addEventListener('resize', checkPosition);
+
+    // 初回チェック
+    checkPosition();
 });
